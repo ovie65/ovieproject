@@ -238,12 +238,13 @@ h2{
       color: red;
     }
     body{
-      overflow:auto;
+      overflow:hidden;
     }
 
     #terms{
       font-size:11px;
-      margin-right: 20px;
+      position: relative;
+      bottom:20px;
     }
 
     .dropdownx{
