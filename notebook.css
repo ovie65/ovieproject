@@ -8,7 +8,7 @@
 
 .whitebox{
     width: 550px;
-    height: 640px;
+    height: 690px;
 }
 
 .dropdown{
@@ -250,7 +250,29 @@ background:rgb(221, 212, 212);
     }
 
     .whitebox{
-      margin:none;
+      
+  }
+
+  #dont{
+    color: grey;
+    font-size:15px;
+    position: relative;
+    bottom:98px;
+    left:209px;
+     
+    
+    
+  }
+  #thelink{
+    text-decoration: none;
+    color:  rgb(18, 181, 18);
+    font-size:16px;
+    position: relative;
+    bottom:100px ;
+    left:228px;
+     
+
+  
   }
   
   }
