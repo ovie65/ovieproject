@@ -239,7 +239,7 @@ background:rgb(221, 212, 212);
     #terms{
         font-size:8px;
         position: relative;
-        left:120px;
+        left:108px;
         bottom:167px;
     }
 
@@ -249,15 +249,13 @@ background:rgb(221, 212, 212);
     left: 70px;
     }
 
-    .whitebox{
-      
-  }
+    
 
   #dont{
     color: grey;
     font-size:15px;
     position: relative;
-    bottom:98px;
+    bottom:105px;
     left:209px;
      
     
@@ -268,12 +266,26 @@ background:rgb(221, 212, 212);
     color:  rgb(18, 181, 18);
     font-size:16px;
     position: relative;
-    bottom:120px ;
+    bottom:125px ;
     left:228px;
      
 
   
   }
+
+  #check{
+    color:grey;
+    position: relative;
+    bottom:87px;
+    left:170px;
   
+  }
+
+  #remember{
+    color: grey;
+    font-size:15px;
+    position: relative;
+    bottom: 108px;
+    left: 200px;
   }
 
