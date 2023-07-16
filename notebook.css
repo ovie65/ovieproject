@@ -239,7 +239,7 @@ background:rgb(221, 212, 212);
     #terms{
         font-size:8px;
         position: relative;
-        left:108px;
+        left:102px;
         bottom:167px;
     }
 
@@ -288,4 +288,6 @@ background:rgb(221, 212, 212);
     bottom: 108px;
     left: 200px;
   }
+
+}
 
