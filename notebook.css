@@ -328,7 +328,7 @@ h1{
   font-size:16px;
   position: absolute;
   left: 32px;
-  bottom:-60px;
+  bottom:-140px;
    
   
 }   
@@ -355,7 +355,7 @@ h1{
   color: grey;
   font-size:14px;
   position:absolute;
-  bottom:25px;
+  bottom:45px;
   left:128px;
    
 }
@@ -382,9 +382,8 @@ h1{
   bottom:170px;
   left: 110px;
 }
-#animallogo,#evernote1,#smallnote,#button1,#button2,h1,#email,#button3{
-  
-  
+#check,#remember,#dont,#thelink,#terms{
+  margin-bottom:250px;
 }
 
 
