@@ -336,18 +336,18 @@ h1{
 
 #remember{
   color: grey;
-  font-size:14px;
+  font-size:13px;
   position: absolute;
   bottom: 95px;
-  left: 134px;
+  left: 131px;
    
 }
 
 #check{
   color:grey;
-  position: relative;
-  bottom:65px;  
-  left:89px;
+  position: absolute;
+  bottom:105px;  
+  left:109px;
    
 }
 
@@ -370,6 +370,17 @@ h1{
    
 
 
+}
+
+#emailError{
+  font-size: 10px;
+  position: absolute;
+  top: 65%;
+  left:300px;
+  color: red;
+  position: absolute;
+  bottom:170px;
+  left: 110px;
 }
 #animallogo,#evernote1,#smallnote,#button1,#button2,h1,#email,#button3{
   
