@@ -221,11 +221,18 @@ background:rgb(221, 212, 212);
   }   
 
 
+
+
+
+
+
+
+
   @media screen and (max-width: 768px){
 
 
     .main{
-      
+      height:100%;
     }
 
     .dropdown{
@@ -236,7 +243,7 @@ background:rgb(221, 212, 212);
 
     body{
       width:50px;
-        height:20px;
+        height:50px;
   
       
     }
@@ -255,7 +262,7 @@ background:rgb(221, 212, 212);
       font-size: 68px;
       color: rgb(33, 174, 33);
       position: relative;
-      left:160px;
+      left:130px;
       top:25px;
        
   }
@@ -263,7 +270,7 @@ background:rgb(221, 212, 212);
   #evernote1{
     font-size: 50px;
     position: relative;
-    left:100px;
+    left:70px;
     top: 10px;
     
 }
@@ -271,19 +278,19 @@ background:rgb(221, 212, 212);
 .kiss{
   position: relative;
   top: 20px;
-  right:50px;
+  right:80px;
 }
 .kiss1{
   position: relative;
   top: 23px;
-  right:50px;
+  right:80px;
 }
 
 
 #smallnote{
   font-size: 15px;
   position:absolute;
-  left: 110px;
+  left: 85px;
   top:170px;
   
   
@@ -294,13 +301,13 @@ h1{
   opacity: 0.5;
   position: relative;
   bottom:112px;
-  left: 194px;
+  left:164px;
 }
 
 #email{
   position:relative;
   bottom: 100px;
-  left: 59px;
+  left:30px;
 }
 
 #button3{
@@ -312,7 +319,7 @@ h1{
   height: 46px;
   position: relative;
   bottom:89px;  
-  left:59px;  
+  left:30px;  
   
 }
 
