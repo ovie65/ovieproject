@@ -325,9 +325,9 @@ h1{
 
 #terms{
   color: grey;
-  font-size:14px;
+  font-size:16px;
   position: absolute;
-  left: 30px;
+  left: 32px;
   bottom:-60px;
    
   
@@ -356,7 +356,7 @@ h1{
   font-size:14px;
   position:absolute;
   bottom:25px;
-  left:145px;
+  left:128px;
    
 }
 
@@ -365,8 +365,8 @@ h1{
   color:  rgb(18, 181, 18);
   font-size:16px;
   position: absolute;
-  bottom:17px;
-  left:165px;
+  bottom:14px;
+  left:145px;
    
 
 
