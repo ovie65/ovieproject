@@ -1,6 +1,7 @@
 .backgrounding{
     background-image:url(anchor-lee-kO1G3neRA2o-unsplash.jpg);
-    height:110vh;
+    height:100vh;
+    width:100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -222,72 +223,157 @@ background:rgb(221, 212, 212);
 
   @media screen and (max-width: 768px){
 
+
+    .main{
+    }
+
+    .dropdown{
+      position: absolute;
+      top:20px;
+    }
+
+
     body{
-      overflow-x: hidden;
-      position:fixed;
-      right:-95px;
+      width:50px;
+        height:20px;
+  
       
     }
     .backgrounding{
         background-image: none;
-        
-      
-        
-        
-    }
-
-    #terms{
-        font-size:8px;
-        position: relative;
-        left:99px;
-        bottom:167px;
-    }
-
-    .dropdown{
-    position: relative;
-    top:30px;
-    left: 70px;
     }
 
     
 
-  #dont{
-    color: grey;
-    font-size:15px;
-    position: relative;
-    bottom:105px;
-    left:209px;
-     
-    
-    
+    .whitebox{
+    height: 50%;
+    width:30px;
+    }
+
+    #animallogo{
+      font-size: 68px;
+      color: rgb(33, 174, 33);
+      position: relative;
+      left:160px;
+      top:25px;
+       
   }
-  #thelink{
-    text-decoration: none;
-    color:  rgb(18, 181, 18);
-    font-size:16px;
+
+  #evernote1{
+    font-size: 50px;
     position: relative;
-    bottom:125px ;
-    left:228px;
-     
+    left:100px;
+    top: 10px;
+    
+}
+
+.kiss{
+  position: relative;
+  top: 20px;
+  right:50px;
+}
+.kiss1{
+  position: relative;
+  top: 23px;
+  right:50px;
+}
+
+
+#smallnote{
+  font-size: 15px;
+  position:absolute;
+  left: 110px;
+  top:170px;
+  
+  
+}
+
+h1{
+  font-size:18px;
+  opacity: 0.5;
+  position: relative;
+  bottom:112px;
+  left: 194px;
+}
+
+#email{
+  position:relative;
+  bottom: 100px;
+  left: 59px;
+}
+
+#button3{
+  color: white;
+  background: rgb(18, 181, 18);
+  border: 1px solid grey;
+  border-radius: 6px 6px 6px 6px;
+  width: 294px;
+  height: 46px;
+  position: relative;
+  bottom:89px;  
+  left:59px;  
+  
+}
+
+#terms{
+  color: grey;
+  font-size:16px;
+  position: absolute;
+  left: 50px;
+  bottom:30px;
+   
+  
+}   
+
+
+#remember{
+  color: grey;
+  font-size:14px;
+  position: absolute;
+  bottom: 330px;
+  left: 160px;
+   
+}
+
+#check{
+  color:grey;
+  position: relative;
+  bottom:65px;
+  left:115px;
+   
+}
+
+#dont{
+  color: grey;
+  font-size:15px;
+  position:absolute;
+  bottom:255px;
+  left:159px;
+   
+}
+
+#thelink{
+  text-decoration: none;
+  color:  rgb(18, 181, 18);
+  font-size:16px;
+  position: absolute;
+  bottom:220px ;
+  left:185px;
+   
+
+
+}
+
+
+
+
+    
 
   
-  }
+ 
 
-  #check{
-    color:grey;
-    position: relative;
-    bottom:87px;
-    left:170px;
-  
-  }
+ 
 
-  #remember{
-    color: grey;
-    font-size:15px;
-    position: relative;
-    bottom: 108px;
-    left: 200px;
-  }
 
 }
 
