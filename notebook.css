@@ -225,6 +225,7 @@ background:rgb(221, 212, 212);
 
 
     .main{
+      
     }
 
     .dropdown{
@@ -320,7 +321,7 @@ h1{
   font-size:16px;
   position: absolute;
   left: 50px;
-  bottom:30px;
+  bottom:-60px;
    
   
 }   
@@ -330,8 +331,8 @@ h1{
   color: grey;
   font-size:14px;
   position: absolute;
-  bottom: 330px;
-  left: 160px;
+  bottom: 105px;
+  left: 165px;
    
 }
 
@@ -347,7 +348,7 @@ h1{
   color: grey;
   font-size:15px;
   position:absolute;
-  bottom:255px;
+  bottom:35px;
   left:159px;
    
 }
@@ -357,7 +358,7 @@ h1{
   color:  rgb(18, 181, 18);
   font-size:16px;
   position: absolute;
-  bottom:220px ;
+  bottom:25px ;
   left:185px;
    
 
