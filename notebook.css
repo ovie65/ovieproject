@@ -253,7 +253,7 @@ background:rgb(221, 212, 212);
     
 
     .whitebox{
-    height:100px;
+    height: 100px;
     width:100px;
     }
 
@@ -327,7 +327,7 @@ h1{
   font-size:16px;
   position: absolute;
   left: 32px;
-  bottom:10px;
+  bottom:-60px;
    
   
 }   
@@ -337,15 +337,15 @@ h1{
   color: grey;
   font-size:13px;
   position: absolute;
-  bottom:205px;
-  left:128px;
+  bottom: 95px;
+  left: 131px;
    
 }
 
 #check{
   color:grey;
   position: absolute;
-  bottom:215px;  
+  bottom:105px;  
   left:109px;
    
 }
@@ -354,11 +354,8 @@ h1{
   color: grey;
   font-size:14px;
   position:absolute;
-  bottom: 135px;
-  left: 129px;
-
-
-  
+  bottom:25px;
+  left:128px;
    
 }
 
@@ -367,8 +364,8 @@ h1{
   color:  rgb(18, 181, 18);
   font-size:16px;
   position: absolute;
-  left:142px;
-  bottom:110px;
+  bottom:14px;
+  left:145px;
    
 
 
