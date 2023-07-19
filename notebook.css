@@ -253,8 +253,8 @@ background:rgb(221, 212, 212);
     
 
     .whitebox{
-    height: 100px;
-    width:100px;
+    height: 100%;
+    width:100%;
     }
 
     #animallogo{
@@ -372,13 +372,10 @@ h1{
 }
 
 #emailError{
-  font-size: 10px;
-  position: absolute;
-  top: 65%;
-  left:300px;
+  font-size: 9px;
   color: red;
   position: absolute;
-  bottom:170px;
+  top:399px;
   left: 110px;
 }
 .checkxx{
