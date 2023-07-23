@@ -384,6 +384,16 @@ width:100%;
 
 }
 
+.firstmain{
+    background-color:white;
+    position: relative;
+    right: 10px;
+    bottom: 29px;
+    height: 450px;
+    width:480px;
+    
+}
+
 
 #free{
 position: relative;
@@ -477,7 +487,7 @@ left:-220px;
     font-size:18px;
     position: absolute;
     top:-120px;
-    right:360px;
+    right:250px;
 
 }
 
