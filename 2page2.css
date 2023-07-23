@@ -1,0 +1,789 @@
+ 
+ body{
+    
+ }
+
+.firstmain{
+    background-color:white;
+    position: relative;
+    right: 10px;
+    bottom: 29px;
+    height: 450px;
+    width: 620px;
+    
+}
+#icon{
+    width: 50px;
+    height: 50px;
+
+}
+.dropdown{
+    height: 200px;
+}
+#laun2ch{
+    font-size: 25px;
+    transform: translate(50%);
+    position: absolute;
+    top: -20%;
+    left:-24%;
+
+}
+
+.m1{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    color: rgb(76, 185, 76);
+    transform: translate(50%);
+    position: absolute;
+    bottom:95%;
+    left:67px;
+}
+.m2{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    color: rgb(76, 185, 76);
+    transform: translate(50%);
+    position: absolute;
+    top: 15%;
+    left:11%;
+}
+.m3{
+    padding: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(200, 235, 200);
+    font-size: 15px;
+    color: rgb(76, 185, 76);
+    transform: translate(50%);
+    position: absolute;
+    top:115%;
+    left:-65px;
+    
+}
+mark{
+    background: rgb(18, 18, 18);
+    color:white;
+    border-radius: 3px 3px 3px 3px;
+    padding:3px;
+}
+#note1{
+    font-size: 14px;
+    transform: translate(50%);
+    position: absolute;
+    top:-2%;
+    left:-12%;
+}
+#note2{
+    font-size: 14px;
+    transform: translate(50%);
+    position: absolute;
+    bottom:64%;
+    left:-81px;
+
+}
+#note3{
+    font-size: 14px;
+    transform: translate(50%);
+    position: absolute;
+    top:35%;
+    left:-88px;
+
+}
+#highgrowth{
+    font-size: 14px;
+    color: rgba(89, 86, 86, 0.719);
+    transform: translate(50%);
+    position: absolute;
+    bottom: 30%;
+    left:5%;
+}
+.j1{
+
+    opacity: 0.5;
+    transform: translate(50%);
+    position: absolute;
+    bottom:11%;
+    left:14%;
+}
+.j2{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:11%;
+    left:25%;
+    
+}
+.j3{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:11%;
+    left:46%;
+
+}
+.j4{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:11%;
+    left:69%;
+    
+}
+.j5{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 19%;
+    left:59%;
+    
+}
+.j6{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom: 19%;
+    left:36%;
+    
+}
+.j7{
+    opacity:0.5;
+    color: #27441d;
+    transform: translate(50%);
+    position: absolute;
+    bottom:19%;
+    left:14%;
+ 
+
+}
+img{
+    width: 100%;
+}
+#backimg{
+    width: 629px;
+    height: 652px;
+    transform: translate(50%);
+    position: absolute;
+    top: -1%;
+    left:25%;
+    
+}
+#free{
+    transform: translate(50%);
+    position: absolute;
+    top:89px;
+    left:38%;
+}
+#getstarted{
+    font-size: 23px;
+    transform: translate(50%);
+    position: absolute;
+    left:50%;
+    top: 42px;
+    
+    
+
+
+}
+
+
+#lastnote{
+    font-size: 13px;
+    transform: translate(50%);
+    position: absolute;
+    top:510px;
+    left:592px;
+}
+#last1{
+    font-size: 13px;
+    transform: translate(50%);
+    position: absolute;
+    top:560px;
+    left:512px;
+    
+}
+
+
+
+#name1{
+    transform: translate(50%);
+    position: absolute;
+    top:206px;
+    left:505px;
+}
+#username{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+#username:hover{
+    background: rgb(185, 169, 169);
+}
+#email:hover{
+    background: rgb(185, 169, 169);
+}
+#password:hover{
+    background: rgb(185, 169, 169);
+}
+#confirmPassword:hover{
+    background: rgb(185, 169, 169);
+}
+#nametag{
+    transform: translate(50%);
+    position: absolute;
+    left:18px;
+    bottom:17px;
+}
+#name2{
+    transform: translate(50%);
+    position: absolute;
+    top:256px;
+    left:505px;
+}
+#email{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+}
+#companytag{
+    transform: translate(50%);
+    position: absolute;
+    left:5px;
+    bottom:12px;
+}
+#name3{
+    transform: translate(50%);
+    position: absolute;
+    top:306px;
+    left:505px;
+}
+#password{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+}
+#emailtag{
+    transform: translate(50%);
+    position: absolute;
+    left:18px;
+    bottom:12px;
+}
+
+#name4{
+    transform: translate(50%);
+    position: absolute;
+    top:356px;
+    left:505px;
+}
+#confirmPassword{
+    height: 50px;
+    width: 430px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    
+    
+
+}
+#passwordtag{
+    transform: translate(50%);
+    position: absolute;
+    left:5px;
+    bottom:12px;
+}
+#goldbu{
+    height: 50px;
+    width: 430px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    background: gold;
+    transform: translate(50%);
+    position: absolute;
+    top:440px;
+    left:509px;
+}
+
+#usernameError{
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+}
+#emailError{
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    left: 270px;
+    
+
+}
+#passwordError{
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+}
+#confirmPasswordError{
+    color: red;
+    font-size: 10px;
+    position: absolute;
+    left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+.main{
+    width:100%
+}
+
+#backimg{
+  display: none;
+  width:100%;
+  
+  
+    
+}
+body{
+width:100%;
+
+}
+
+
+#free{
+position: relative;
+top:445px;
+left:-220px;
+font-size:11px;
+
+
+}
+
+#getstarted{
+    font-size:19px;
+position: relative;
+top:325px;
+left:-220px;
+}
+
+.firstmain{
+    position: absolute;
+    top:170px;
+    left:-40px;
+}
+
+
+.secoundmain{
+    position: absolute;
+    left:100px;
+
+}
+
+#registrationForm{
+    position: absolute;
+    top:350px;
+    right:1100px;
+
+}
+
+#lastnote{
+    font-size: 13px;
+    position: relative;
+    left:-200px;
+    top:750px;
+}
+#last1{
+    font-size: 13px;
+    position: relative;
+    left:-200px;
+    top:780px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#laun2ch{
+    font-size:18px;
+    position: absolute;
+    top:-120px;
+    right:360px;
+
+}
+
+
+
+#icon{
+    width: 50px;
+    height: 50px;
+
+}
+.dropdown{
+    height: 200px;
+}
+
+
+.m1{
+   font-size:12px;
+   padding:5px;
+   position: absolute;
+   left:35px;
+   bottom:430px;
+   
+}
+.m2{
+    font-size:12px;
+    padding:5px;
+    position: absolute;
+    top:96px;
+    left:35px;
+}
+.m3{
+    font-size:12px;
+    padding:5px;
+    position: absolute;
+    left:-37px;
+    top:80px;
+   
+    
+}
+mark{
+    background: rgb(18, 18, 18);
+    color:white;
+    border-radius: 3px 3px 3px 3px;
+    padding:3px;
+}
+#note1{
+    font-size: 10px;
+    transform: translate(50%);
+    
+}
+#note2{
+    font-size: 10px;
+    transform: translate(50%);
+   
+}
+#note3{
+    font-size: 10px;
+    transform: translate(50%);
+ 
+}
+#highgrowth{
+    font-size: 12px;
+    color: rgba(89, 86, 86, 0.719);
+    position: absolute;
+    left:-55px;
+   
+}
+.j1{
+
+    opacity: 0.5;
+    position: absolute;
+    left:30px;
+    font-size:11px;
+
+ 
+}
+.j2{
+    opacity:0.5;
+    color: #27441d;
+    left:80px;
+    font-size:11px;
+
+}
+   
+.j3{
+    opacity:0.5;
+    color: #27441d;
+    left:165px;
+    font-size:11px;
+
+   
+
+}
+.j4{
+    opacity:0.5;
+    color: #27441d;
+    left:259px;
+    font-size:11px;
+    
+}
+.j5{
+    opacity:0.5;
+    color: #27441d;
+    left:10px;
+    font-size:12px;
+  
+   
+    
+}
+.j6{
+    opacity:0.5;
+    color: #27441d;
+    left:130px;
+    font-size:12px;
+   
+}
+.j7{
+    opacity:0.5;
+    color: #27441d;
+    left:235px;
+    font-size:12px;
+   
+
+}
+img{
+    width: 100%;
+}
+
+
+
+
+
+#lastnote{
+    font-size: 13px;
+    transform: translate(50%);
+   
+}
+#last1{
+    font-size: 13px;
+    transform: translate(50%);
+    
+    
+}
+
+
+
+#name1{
+    position: absolute;
+    left:605px;
+    top:224px;
+   
+}
+#username{
+    height: 35px;
+    width: 320px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    
+    
+}
+#username:hover{
+    background: rgb(185, 169, 169);
+}
+#email:hover{
+    background: rgb(185, 169, 169);
+}
+#password:hover{
+    background: rgb(185, 169, 169);
+}
+#confirmPassword:hover{
+    background: rgb(185, 169, 169);
+}
+#nametag{
+   
+    
+    
+}
+#name2{
+    position: absolute;
+    left:605px;
+    top:265px;
+   
+}
+#email{
+    height: 35px;
+    width: 320px;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+    
+}
+#companytag{
+    transform: translate(50%);
+ 
+}
+#name3{
+    position: absolute;
+    left:605px;
+    
+}
+#password{
+    height: 35px;
+    width: 320px;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+    
+}
+#emailtag{
+    transform: translate(50%);
+    
+}
+
+#name4{
+    position: absolute;
+    left:605px;
+    top:345px;
+    
+}
+#confirmPassword{
+    height: 35px;
+    width: 320px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    
+    
+
+}
+#passwordtag{
+    transform: translate(50%);
+   
+}
+#goldbu{
+    height:35px;
+    width: 320px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    background: gold;
+    position: absolute;
+    left:605px;
+   
+}
+
+#usernameError{
+    color: red;
+    font-size: 6px;
+    position: absolute;
+    top:-10px;
+    left:-5px;
+ 
+}
+#emailError{
+    color: red;
+    font-size: 6px;
+    position: absolute;
+    top:-8px;
+    left:-5px;
+   
+    
+
+}
+#passwordError{
+    color: red;
+    font-size: 6px;
+    position: absolute;
+    top:-9px;
+    left:-5px;
+   
+}
+#confirmPasswordError{
+    color: red;
+    font-size: 6px;
+    position: absolute;
+    top:-8px;
+    left:-5px;
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+}
