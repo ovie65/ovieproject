@@ -108,15 +108,15 @@
                 let isValid = true;
         
                 if (!username.value) {
-                    usernameError.textContent = "**name is required";
+                    usernameError.textContent = "name is required";
                     isValid = false;
                 } else {
-                    usernameError.textContent = "**Please fill the remaining form";
+                    usernameError.textContent = "Please fill the remaining form";
                     usernameError.style.color = "blue"
                 }
         
                 if (!email.value) {
-                    emailError.textContent = "**You must put a company name";
+                    emailError.textContent = "You must put a company name";
                     isValid = false;
                 } else if (!email.value.match(emailformat)) {
                     emailError.textContent = "Email is not in the correct format";
@@ -127,21 +127,21 @@
                 }
         
                 if (!password.value) {
-                    passwordError.textContent = "**please put a valid email";
+                    passwordError.textContent = "please put a valid email";
                     isValid = false;
                 } else if (!password.value.match(passformat)) {
-                    passwordError.textContent = "**Email must end with @gmail.com";
+                    passwordError.textContent = "Email must end with @gmail.com";
                     isValid = false;
                 } else {
-                    passwordError.textContent = " **Email is okay";
+                    passwordError.textContent = " Email is okay";
                     passwordError.style.color = "blue";
                 }
         
                 if (password.value !== confirmPassword.value) {
-                    confirmPasswordError.textContent = "**Please put a strong password";
+                    confirmPasswordError.textContent = "Please put a strong password";
                     isValid = false;
                 } else {
-                    confirmPasswordError.textContent = "**Don't forget your password";
+                    confirmPasswordError.textContent = "Don't forget your password";
                 }
         
                 if (isValid) {

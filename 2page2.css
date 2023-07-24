@@ -435,13 +435,13 @@ left:-220px;
     font-size: 13px;
     position: relative;
     left:-200px;
-    top:750px;
+    top:680px;
 }
 #last1{
     font-size: 13px;
     position: relative;
     left:-200px;
-    top:780px;
+    top:700px;
     
     
     
@@ -645,7 +645,7 @@ img{
 }
 #username{
     height: 35px;
-    width: 320px;
+    width: 300px;
     border: none;
     outline: none;
     text-align: center;
@@ -668,7 +668,10 @@ img{
 }
 #nametag{
    
-    
+    position: absolute;
+    left:-10px;
+    bottom:25px;
+    font-size:9px;
     
 }
 #name2{
@@ -679,7 +682,7 @@ img{
 }
 #email{
     height: 35px;
-    width: 320px;
+    width: 300px;
     border: none;
     outline: none;
     text-align: center;
@@ -687,7 +690,9 @@ img{
     
 }
 #companytag{
-    transform: translate(50%);
+    font-size:9px;
+    bottom:25px;
+    left:-16px;
  
 }
 #name3{
@@ -697,7 +702,7 @@ img{
 }
 #password{
     height: 35px;
-    width: 320px;
+    width: 300px;
     border: none;
     outline: none;
     text-align: center;
@@ -705,7 +710,9 @@ img{
     
 }
 #emailtag{
-    transform: translate(50%);
+    font-size:9px;
+    bottom:25px;
+    left:-9px;
     
 }
 
@@ -717,7 +724,7 @@ img{
 }
 #confirmPassword{
     height: 35px;
-    width: 320px;
+    width: 300px;
     border: none;
     outline: none;
     text-align: center;
@@ -728,17 +735,19 @@ img{
 
 }
 #passwordtag{
-    transform: translate(50%);
-   
+    font-size:9px;
+   bottom:25px;
+   left:-15px;
 }
 #goldbu{
     height:35px;
-    width: 320px;
+    width: 300px;
     border: none;
     border-radius: 8px 8px 8px 8px;
     background: gold;
     position: absolute;
     left:605px;
+    top:380px;
    
 }
 
@@ -747,7 +756,7 @@ img{
     font-size: 6px;
     position: absolute;
     top:-10px;
-    left:-5px;
+    left:4px;
  
 }
 #emailError{
@@ -755,7 +764,7 @@ img{
     font-size: 6px;
     position: absolute;
     top:-8px;
-    left:-5px;
+    left:4px;
    
     
 
@@ -765,7 +774,7 @@ img{
     font-size: 6px;
     position: absolute;
     top:-9px;
-    left:-5px;
+    left:4px;
    
 }
 #confirmPasswordError{
@@ -773,7 +782,7 @@ img{
     font-size: 6px;
     position: absolute;
     top:-8px;
-    left:-5px;
+    left:4px;
    
 
 
