@@ -38,7 +38,7 @@
     transform: translate(50%);
     position: absolute;
     bottom:95%;
-    right:425px;
+    left:67px;
 }
 .m2{
     padding: 7px;
@@ -60,7 +60,7 @@
     transform: translate(50%);
     position: absolute;
     top:115%;
-    right:320px;
+    left:-65px;
     
 }
 mark{
