@@ -70,11 +70,10 @@ mark{
     padding:3px;
 }
 #note1{
-    font-size: 14px;
+    font-size:14px;
     transform: translate(50%);
     position: absolute;
-    top:-2%;
-    left:-12%;
+    left:-36px;
 }
 #note2{
     font-size: 14px;
@@ -89,7 +88,7 @@ mark{
     transform: translate(50%);
     position: absolute;
     top:35%;
-    left:-88px;
+    left:-78px;
 
 }
 #highgrowth{
