@@ -653,20 +653,21 @@ img{
     text-align: center;
     border-top-left-radius:5px;
     border-top-right-radius:5px;
+    box-shadow: 1px   1px black;
     
     
 }
 #username:hover{
-    background: rgb(185, 169, 169);
+    background:none;
 }
 #email:hover{
-    background: rgb(185, 169, 169);
+    background:none;
 }
 #password:hover{
-    background: rgb(185, 169, 169);
+    background:none;
 }
 #confirmPassword:hover{
-    background: rgb(185, 169, 169);
+    background:none;
 }
 #nametag{
    
@@ -688,6 +689,8 @@ img{
     border: none;
     outline: none;
     text-align: center;
+    box-shadow: 1px 1px black;
+    
     
     
 }
@@ -708,6 +711,7 @@ img{
     border: none;
     outline: none;
     text-align: center;
+    box-shadow: 1px 1px black;
     
     
 }
@@ -732,6 +736,7 @@ img{
     text-align: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius:5px ;
+    box-shadow: 1px 1px black;
     
     
 
@@ -749,42 +754,42 @@ img{
     background: gold;
     position: absolute;
     left:605px;
-    top:380px;
+    top:400px;
    
 }
 
 #usernameError{
     color: red;
-    font-size: 6px;
+    font-size: 5px;
     position: absolute;
-    top:-10px;
+    top:-7px;
     left:4px;
  
 }
 #emailError{
     color: red;
-    font-size: 6px;
+    font-size: 5px;
     position: absolute;
-    top:-8px;
-    left:4px;
+    top:-7px;
+    left:54px;
    
     
 
 }
 #passwordError{
     color: red;
-    font-size: 6px;
+    font-size: 5px;
     position: absolute;
-    top:-9px;
-    left:4px;
+    top:-7px;
+    left:54px;
    
 }
 #confirmPasswordError{
     color: red;
-    font-size: 6px;
+    font-size: 5px;
     position: absolute;
-    top:-8px;
-    left:4px;
+    top:-5px;
+    left:57px;
    
 
 
