@@ -1,0 +1,198 @@
+.dropdown{
+    position: absolute;
+    top: 35px;
+    left: 500px;
+}
+img{
+    width: 100%;
+}
+#overf{
+    width:480px;
+    height: 645px;
+    position: absolute;
+    bottom:3px;
+    left:1px;
+}
+#overflowicon{
+    transform: translate(50%);
+    position: absolute;
+    left:-55px;
+    bottom:595px;
+}
+#smallwrite{
+    font-size: 28px;
+    transform: translate(50%);
+    position: absolute;
+    left:-85px;
+    bottom:425px;
+}
+#writeup{
+    font-size:15px;
+    transform: translate(50%);
+    position: absolute;
+    left: 497px;
+    bottom:400px;
+}
+#last{
+    transform: translate(50%);
+    position: absolute;
+    left: 720px;
+    bottom:378px;
+}
+h2{
+    font-size: 40px;
+    transform: translate(50%);
+    position: absolute;
+    left: 500px;
+    bottom:439px;
+}
+#name2{
+    transform: translate(50%);
+    position: absolute;
+    left: 485px;
+    bottom:280px;
+}
+#email{
+    height: 50px;
+    width: 430px;
+    border: 1px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+#companytag{
+    position: absolute;
+    bottom: 63px;
+}
+#sendbu{
+    color: grey;
+    height: 50px;
+    width: 430px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    transform: translate(50%);
+    position: absolute;
+    left: 485px;
+    bottom:200px;
+}
+#emailError{
+    font-size: 15px;
+    color: red;
+    position: absolute;
+    right:235px;
+    top:55px;
+}
+#lastone{
+    text-decoration: none;
+    position: absolute;
+    right:340px;
+    top:475px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 844px){
+
+
+   body{
+    overflow-y:hidden;
+    overflow-x: hidden;
+   }
+
+    .dropdown{
+        position: absolute;
+        left:190px;
+        top:60px;
+    }
+
+    
+    #overf{
+
+        display: none;
+
+    }
+    #overflowicon{
+        transform: translate(50%);
+        position: absolute;
+        left:-65px;
+        bottom:590px;
+    }
+    #smallwrite{
+        display: none;
+    }
+    #writeup{
+        font-size: 12px;
+        transform: translate(50%);
+        position: absolute;
+        left:-150px;
+        bottom:398px;
+    }
+    #last{
+        font-size:14px;
+        position: absolute;
+        left:20px;
+        bottom:375px;
+    }
+   
+    #name2{
+        transform: translate(50%);
+        position: absolute;
+        left:-190px;
+        bottom:260px;
+    }
+    #email{
+        height: 50px;
+        width: 330px;
+        border: 1px solid grey;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        left:210px;
+        bottom:20px;
+    }
+   
+    #sendbu{
+        color: grey;
+        height: 50px;
+        width: 330px;
+        border: none;
+        border-radius: 8px 8px 8px 8px;
+        transform: translate(50%);
+        position: absolute;
+        left:-145px;
+        bottom:194px;
+    }
+    #emailError{
+        font-size: 15px;
+        color: red;
+        
+    }
+    #lastone{
+        text-decoration: none;
+        position: absolute;
+        right:215px;
+        top:460px;
+    }
+
+    h2{
+        font-size:22px;
+        position: absolute;
+        left:-45px;
+    }
+
+    #lastone{
+        position: relative;
+        left:130px;
+        top:600px;
+    }
+
+    
+}
+
