@@ -102,9 +102,17 @@ h2{
 @media (max-width:768px){
 
 
+    .secoundmaim{
+        height:100%;
+        width:50%;
+    }
+
+    
+
+
    body{
-    overflow-y:hidden;
-    overflow-x: hidden;
+    width: 100%;
+    height:100%;
    }
 
     .dropdown{
@@ -123,7 +131,7 @@ h2{
         transform: translate(50%);
         position: absolute;
         left:-65px;
-        bottom:590px;
+        bottom:800px;
     }
     #smallwrite{
         display: none;
@@ -132,13 +140,13 @@ h2{
         font-size: 12px;
         transform: translate(50%);
         position: absolute;
-        left:-163px;
+        left:-140px;
         bottom:398px;
     }
     #last{
         font-size:14px;
         position: absolute;
-        left:20px;
+        left:35px;
         bottom:375px;
     }
    
@@ -159,8 +167,8 @@ h2{
     }
     #companytag{
         position: absolute;
-        left:280px;
-        bottom:100px;
+        left:215px;
+        bottom:70px;
     }
    
     #sendbu{
@@ -169,7 +177,6 @@ h2{
         width: 330px;
         border: none;
         border-radius: 8px 8px 8px 8px;
-        transform: translate(50%);
         position: absolute;
         left:-145px;
         bottom:200px;
@@ -189,13 +196,13 @@ h2{
     h2{
         font-size:22px;
         position: absolute;
-        left:-45px;
+        left:-37px;
     }
 
     #lastone{
-        position: relative;
-        left:130px;
-        top:600px;
+        white-space: nowrap;
+      margin-top:200px;
+      margin-right:-180px;
     }
 
     
