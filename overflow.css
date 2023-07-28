@@ -118,7 +118,7 @@ h2{
 
     .dropdown{
         position: absolute;
-        left:190px;
+        left:240px;
         top:40px;
     }
 
@@ -132,22 +132,22 @@ h2{
         transform: translate(50%);
         position: absolute;
         left:-65px;
-        bottom:800px;
+        bottom:700px;
     }
     #smallwrite{
         display: none;
     }
     #writeup{
-        font-size: 12px;
+        font-size: 11px;
         transform: translate(50%);
         position: absolute;
-        left:-155px;
+        left:-125px;
         bottom:398px;
     }
     #last{
-        font-size:14px;
+        font-size:12px;
         position: absolute;
-        left:35px;
+        left:45px;
         bottom:375px;
     }
    
