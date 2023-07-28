@@ -141,13 +141,13 @@ h2{
         font-size: 11px;
         transform: translate(50%);
         position: absolute;
-        left:-125px;
+        left:-145px;
         bottom:398px;
     }
     #last{
         font-size:12px;
         position: absolute;
-        left:45px;
+        left:35px;
         bottom:375px;
     }
    
@@ -197,7 +197,7 @@ h2{
     h2{
         font-size:22px;
         position: absolute;
-        left:-45px;
+        left:-55px;
     }
 
     #lastone{
