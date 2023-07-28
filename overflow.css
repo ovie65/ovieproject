@@ -104,11 +104,8 @@ h2{
 
 
     .center{
-    
-        max-width:500px;
-        margin: auto;
-        width:50%;
-        padding:10px;
+
+      
         
     }
 
@@ -117,7 +114,7 @@ h2{
     .secoundmaim{
         height:100%;
         width:100%;
-        justify-content: center;
+       
                  
     }
 
@@ -130,9 +127,11 @@ h2{
    }
 
     .dropdown{
-        position: absolute;
-        left:240px;
-        top:40px;
+    position: relative;
+       top:8px;
+    left:3px;
+    white-space: nowrap;
+        
     }
 
     
@@ -142,65 +141,63 @@ h2{
 
     }
     #overflowicon{
-        transform: translate(50%);
-        position: absolute;
-        left:-65px;
-        bottom:550px;
+    position: relative;
+    bottom:-35px;
+    
     }
     #smallwrite{
         display: none;
     }
     #writeup{
-        font-size: 11px;
-        transform: translate(50%);
-        position: absolute;
-        left:-145px;
-        bottom:398px;
+        font-size: 13px;
+        position: relative;
+        bottom:-165px;
+        left:-82px;
+        white-space: nowrap
+       
     }
     #last{
-        font-size:12px;
-        position: absolute;
+        font-size:13px;
+        position: relative;
+        bottom:-150px;
         left:35px;
-        bottom:375px;
+        white-space: nowrap
+      
+    }
+
+    #registrationForm{
+        position: relative;
+        bottom:-545px;
+        left:-590px;
     }
    
     #name2{
     
-        position: absolute;
-        left:-190px;
-        bottom:260px;
+      
     }
     #email{
         height: 50px;
-        width: 330px;
+        width: 300px;
         border: 1px solid grey;
         border-radius: 10px 10px 10px 10px;
-        position: absolute;
-        left:210px;
-        bottom:20px;
+      
     }
     #companytag{
-        position: absolute;
-        left:215px;
-        bottom:70px;
+      
     }
    
     #sendbu{
         color: grey;
         height: 50px;
-        width: 330px;
+        width: 300px;
         border: none;
         border-radius: 8px 8px 8px 8px;
-        position: absolute;
-        left:-145px;
-        bottom:200px;
+        
     }
     #emailError{
         font-size:13px;
         color: red; 
-        position:absolute;
-        left:220px;
-        top:-10px;
+      
         white-space: nowrap;
 
         
@@ -208,16 +205,22 @@ h2{
     
 
     h2{
-        font-size:22px;
-        position: absolute;
-        left:-55px;
+        font-size:25px;
+        position: relative;
+        bottom:-165px;
+        left:-20px;
+        white-space: nowrap;
+        
+        
+        
+       
     }
 
     #lastone{
         white-space: nowrap;
-        position:absolute;
-        left:318px;
-        top:100px;
+        margin-right:-70px;
+        margin-top:-45px;
+      
        
       
     }
