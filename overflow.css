@@ -132,7 +132,7 @@ h2{
         transform: translate(50%);
         position: absolute;
         left:-65px;
-        bottom:700px;
+        bottom:500px;
     }
     #smallwrite{
         display: none;
