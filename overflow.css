@@ -149,10 +149,10 @@ h2{
         display: none;
     }
     #writeup{
-        font-size: 13px;
+        font-size: 12px;
         position: relative;
         bottom:-165px;
-        left:-82px;
+        left:-68px;
         white-space: nowrap
        
     }
@@ -197,6 +197,8 @@ h2{
     #emailError{
         font-size:13px;
         color: red; 
+        position: absolute;
+        left:16px;
       
         white-space: nowrap;
 
