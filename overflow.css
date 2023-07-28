@@ -102,10 +102,23 @@ h2{
 @media screen and (max-width: 768px){
 
 
+
+    .center{
+    
+        max-width:500px;
+        margin: auto;
+        width:50%;
+        padding:10px;
+        
+    }
+
+
+
     .secoundmaim{
         height:100%;
-        width:50%;
-           
+        width:100%;
+        justify-content: center;
+                 
     }
 
     
