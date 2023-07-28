@@ -84,8 +84,8 @@ h2{
 #lastone{
     text-decoration: none;
     position: absolute;
-    right:340px;
-    top:475px;
+    right:180px;
+    top:205px;
 }
 
 
@@ -105,20 +105,21 @@ h2{
     .secoundmaim{
         height:100%;
         width:50%;
+           
     }
 
     
 
 
    body{
-    width: 100%;
+    width: 50%;
     height:100%;
    }
 
     .dropdown{
         position: absolute;
         left:190px;
-        top:60px;
+        top:40px;
     }
 
     
@@ -140,7 +141,7 @@ h2{
         font-size: 12px;
         transform: translate(50%);
         position: absolute;
-        left:-140px;
+        left:-155px;
         bottom:398px;
     }
     #last{
@@ -196,13 +197,16 @@ h2{
     h2{
         font-size:22px;
         position: absolute;
-        left:-37px;
+        left:-45px;
     }
 
     #lastone{
         white-space: nowrap;
-      margin-top:200px;
-      margin-right:-180px;
+        position:absolute;
+        left:318px;
+        top:100px;
+       
+      
     }
 
     
