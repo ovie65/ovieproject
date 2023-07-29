@@ -149,10 +149,10 @@ h2{
         display: none;
     }
     #writeup{
-        font-size: 12px;
+        font-size: 11px;
         position: relative;
         bottom:-165px;
-        left:-68px;
+        left:-59px;
         white-space: nowrap
        
     }
@@ -160,7 +160,7 @@ h2{
         font-size:13px;
         position: relative;
         bottom:-150px;
-        left:35px;
+        left:18px;
         white-space: nowrap
       
     }
@@ -210,7 +210,7 @@ h2{
         font-size:25px;
         position: relative;
         bottom:-165px;
-        left:-28px;
+        left:-38px;
         white-space: nowrap;
         
         
