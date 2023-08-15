@@ -19,107 +19,104 @@
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="index.html">Evernote</a></li>
           <li><a class="dropdown-item" href="2page.html">aptible</a></li>
-          <li><a class="dropdown-item" href="overflow.html">3rd page</a></li>
+          <li><a class="dropdown-item" href="overflow.html">overflow</a></li>
+          <li><a class="dropdown-item" href="skyscanner.html">skyscanner</a></li>
         </ul>
       </div>
-    <div class=" main">
 
-      
-        <div class="container p-3 mb-2 bg-white text-dark whitebox">
+   </head>
+   <body>
+      <div class="thebig">
+         <div class="forinnerbig">
             
           <i id="animallogo"  class="fab fa-evernote"></i> 
 
-        <h2 id="evernote1">
-            Evernote
-        </h2>
+                  <h1>Evernote</h1>
+                  <p class="imp">Remember everything important.</p>
+                  <button class="button"><i class="fab fa-google fa m1"></i>Continue with Google</button><br>
+                  <button class="button"><i class="fab fa-apple m2"></i></i>Continue with Apple</button>
+                  <p class="faint">or</p>
+                 
+                  <form id="registrationForm">
+                        <input id="email" placeholder="Email address or username" onchange="validateemail() ">
+                        <span id="emailError" class="error"></span>
 
-        <p id="smallnote">
-          Remember everything important.
-      </p>
+                        <button type="submit" id="button3"><h3>Continue</h3></button>
+                  </form>
 
-      <div class="kiss">
-        <button id="button1"><i class="fab fa-google fa m1"></i>Continue with Google</button>
-       </div>
-       <div class="kiss1">
-        <button id="button2"><i class="fab fa-apple m2"></i></i>Continue with Apple</button>
-       </div>
 
-       <h1 id="line">
-        or
-       </h1>
+                  <div>
+                     <input id="check" type="checkbox">
+                     Remember me for 30 days
+                  </div>
+                  <p>Don't have an account?</p>
+                  <a href="#">Create account</a>
+               </div>
+     </div>
+            <p class="terms"> Terms of service  &nbsp;&nbsp;&nbsp;&nbsp;|  Privacy policy &nbsp;&nbsp;&nbsp;&nbsp; |  Copyright 2023 Evernote Coperation, All rights reserved.</p>
 
-        <form id="registrationForm">
+         </body>
 
-          <div class="name2">
-            <input id="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" onchange="validateemail() " placeholder="Email adress and username">
-            <span id="emailError" class="error"></span>
-          </div>
+
 
           
-          <button type="submit" id="button3"><h3>Continue</h3></button>
- 
-          <div class="checkxx"> <input id="check" type="checkbox"><h4 id="remember">Remember me for 30 days</h4></div>
-          <p id="dont">Don't have an account?</p>
-          <a  id="thelink" href="#">Create account</a>
-
-
-          <p id="terms">
-            Terms of service   |  Privacy policy  |  Copyright 2023 Evernote Coperation, All rights reserved.
-        </p>
-  
-    
-  
-       </div>
-
-
-        </form>
-            
-          
-
-      </div>
          <script>
          
 
-          const form = document.getElementById("registrationForm");
-          const email = document.getElementById("email");
-          
-          
-          const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-          
-          function validateemail(){
-  if (!email.value) {
-              emailError.textContent = "you must put the email";
-              
-          } else if (!email.value.match(emailformat)) {
-              emailError.textContent = "Email is not in the correct format";
-              
-          } else {
-              emailError.textContent = " valid email";
-              emailError.style.color = "red";
-          }
-}
-form.addEventListener("submit", function(x) {
-  
-  x.preventDefault();
-
-  let isValid = true;
-
-
-  if (!email.value) {
-      emailError.textContent = "Email address is requiried";
-      isValid = false;
-  } else if (!email.value.match(emailformat)) {
-      emailError.textContent = "Email is not in the correct format";
-      isValid = false;
-  } else {
-      emailError.textContent = " valid email";
-      emailError.style.color = "blue";
+            const form = document.getElementById("registrationForm");
+            const email = document.getElementById("email");
+            
+            
+            const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            
+            function validateemail(){
+    if (!email.value) {
+                emailError.textContent = "you must put the email";
+                
+            } else if (!email.value.match(emailformat)) {
+                emailError.textContent = "Email is not in the correct format";
+                
+            } else {
+                emailError.textContent = " valid email";
+                emailError.style.color = "red";
+            }
   }
+  form.addEventListener("submit", function(x) {
+    
+    x.preventDefault();
+  
+    let isValid = true;
+  
+  
+    if (!email.value) {
+        emailError.textContent = "Email address is requiried";
+        isValid = false;
+    } else if (!email.value.match(emailformat)) {
+        emailError.textContent = "Email is not in the correct format";
+        isValid = false;
+    } else {
+        emailError.textContent = " valid email";
+        emailError.style.color = "blue";
+    }
+  
+   
+  
+  });
+  </script>
+           
+           
+    
+      </html>
 
- 
 
-});
-</script>
+
+
+
+
+
+
+
+      
          
          
   
@@ -134,10 +131,4 @@ form.addEventListener("submit", function(x) {
     
 
 
-        </div>
-
-        
-      </div>
-      
-</body>
-</html>
+    

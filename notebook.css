@@ -1,396 +1,158 @@
 .backgrounding{
     background-image:url(anchor-lee-kO1G3neRA2o-unsplash.jpg);
-    height:100vh;
+    height:105vh;
     width:100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-.whitebox{
-    width: 550px;
-    height: 690px;
-}
-
-.dropdown{
-    position: fixed;
-    bottom:600px;
-}
 
 #animallogo{
     font-size: 68px;
     color: rgb(33, 174, 33);
-    position: relative;
-    left:220px;
-    
-    
-    
 }
-#evernote1{
-    font-size: 50px;
-    position: relative;
-    left:160px;
-    
-}
-#smallnote{
-    font-size: 18px;
-    position:relative;
-    left: 125px;
-    
-    
-}
+
 
 .m1 {
-    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    padding: 7px;
-    font-size: 20px;
-    
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  padding: 7px;
+  font-size: 20px;
+  
+}
+h3{
+  font-size:17px;
+}
+
+
+
+
+
+body{
+  margin: 0px auto;
+}
+.thebig{
+  margin: 0px auto;
+  text-align: center;
+  background: white;
+  width: 40%;
+  box-shadow: 0px 0px 2px rgb(10, 10, 10);
+  margin-top:-35px;
+}
+.thebig .forinnerbig{
+  text-align: center;
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.forinnerbig img{
+  width: 20%;
+  text-align: center;
+  margin: 0px auto -15px auto;
+}
+
+.forinnerbig h1{
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+}
+.forinnerbig .imp{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: rgb(53, 53, 53);
+  margin-bottom: 40px;
+}
+.forinnerbig .button{
+  height: 45px;
+  width: 270px;
+  background: none;
+  border-radius: 5px;
+  border: 1px solid rgb(209, 209, 209);
+  padding: 10px 0px;
+  margin: 0px auto;
+  text-align: center;
+}
+.forinnerbig input{
+  height: 45px;
+  width: 270px;
+  padding: 15px 10px;
+  font-size: 16px;
+  border: 1px solid rgb(209, 209, 209);
+  outline: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.forinnerbig input~button{
+  height: 45px;
+  width: 270px;
+  border-radius: 5px;
+  background: #008F26;
+  padding: 15px 10px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.forinnerbig div{
+  color: rgb(88, 88, 88);
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+.forinnerbig div~p{
+  color: rgb(88, 88, 88);
+  font-family: sans-serif;
+  font-size: 13px;
+}
+.forinnerbig a{
+  text-decoration: none;
+  color: green;
+  margin-bottom: 30px;
+}
+.terms{
+  font-size:11px;
+  text-align: center;
+}
+#check{
+  height:13px;
+  width:20px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .thebig{
+     margin: 0px auto;
+     text-align: center;
+     background: white;
+     width: 100%;
+     height: 100%;
+     box-shadow: 0px 0px 10px black;
   }
-  .m2{
-    padding: 7px;
-    font-size: 20px;
+  .thebig .forinnerbig{
+     text-align: center;
+     margin: 0px auto;
+     display: flex;
+     flex-direction: column;
   }
-  #button1{
-    border: 1px solid grey;
-    border-radius: 6px 6px 6px 6px ;
-    width: 290px;
-    height: 40px;
-    background: white;
+
+  .terms{
     position: relative;
-    top:50px;
-    left: 110px;
-
-    
-    
-  }
-  #button1:hover{
-background:rgb(221, 212, 212);
-  }
-  #button2:hover{
-    background:rgb(221, 212, 212);
-    
-  }
-  #button3:hover{
-    background:green;
-    
-  }
-  
-  #button2{
-    border: 1px solid grey;
-    border-radius: 6px 6px 6px 6px;
-    width: 290px;
-    height: 40px;
-    background: white;
-    margin-bottom: 200px;
-    position: relative;
-    top:55px;
-    left: 110px;
-    
-    
-    
-  }
-  h1{
-    font-size:18px;
-    opacity: 0.5;
-    position: relative;
-    bottom: 130px;
-    left: 245px;
-    
-    
-
+    bottom:15px;
   }
 
-  h1::before{
-    content:"" ;
-    height: 1px;
-    width: 123px;
-    background: black;
-    position:absolute;
-    left:35px;
-    top:14px;
-    opacity: 0.5;
-
-
+  .dropdown{
+    display:none ;
   }
-  h1::after{
-    content:"" ;
-    height: 1px;
-    width: 123px;
-    background: black;
-    position:absolute;
-    left:-139px;
-    top:14px;
-    opacity: 0.5;
-
-  }
- 
-    
-  .form-control{
-    border: 1px solid grey;
-    border-radius: 6px 6px 6px 6px;
-    width: 290px;
-    height:40px;
-      
-    
-    
-  }
-
-  #email{
-    position:relative;
-    bottom: 120px;
-    left: 105px;
-  }
-  #emailError{
-    font-size: 10px;
-    position: absolute;
-    top: 74%;
-    left:480px;
-    color: red;
-    
-  }
-  
-  h3{
-    font-size: 16px;
-  }
-  #button3{
-    color: white;
-    background: rgb(18, 181, 18);
-    border: 1px solid grey;
-    border-radius: 6px 6px 6px 6px;
-    width: 294px;
-    height: 46px;
-    position: relative;
-    bottom:110px;  
-    left:102px;  
-    
-  }
-  #check{
-    color:grey;
-    position: relative;
-    bottom:75px;
-    left:170px;
-     
-    
-  
-
-  }
-  #remember{
-    color: grey;
-    font-size:15px;
-    position: relative;
-    bottom: 94px;
-    left: 200px;
-     
-    
-    
-  }
-  #dont{
-    color: grey;
-    font-size:15px;
-    position: relative;
-    bottom:65px;
-    left:209px;
-     
-    
-    
-  }
-  #thelink{
-    text-decoration: none;
-    color:  rgb(18, 181, 18);
-    font-size:16px;
-    position: relative;
-    bottom:75px ;
-    left:228px;
-     
-
-  
-  }
-  #terms{
-    color: grey;
-    font-size:14px;
-    position: absolute;
-    left: 355px;
-     
-    
-  }   
 
 
 
-
-
-
-
-
-
-  
-
-
-
-    @media screen and (max-width: 768px){
-
-
-      .main{
-        height:100%;
-      }
-  
-      .dropdown{
-        position: absolute;
-        top:20px;
-      }
-  
-  
-      body{
-          width: 100px;
-          height:100px;
-    
-        
-      }
-      .backgrounding{
-          background-image: none;
-        
-      }
-  
-      
-  
-      .whitebox{
-      height: 100%;
-      width:100%;
-      }
-  
-      #animallogo{
-        font-size: 68px;
-        color: rgb(33, 174, 33);
-        position: relative;
-        left:145px;
-        top:25px;
-         
-    }
-  
-    #evernote1{
-      font-size: 50px;
-      position: relative;
-      left:80px;
-      top: 10px;
-      
-  }
-  
-  .kiss{
-    position: relative;
-    top: 20px;
-    right:80px;
-  }
-  .kiss1{
-    position: relative;
-    top: 23px;
-    right:80px;
-  }
-  
-  
-  #smallnote{
-    font-size: 15px;
-    position:absolute;
-    left: 85px;
-    top:170px;
-    
-    
-  }
-  
-  h1{
-    font-size:18px;
-    opacity: 0.5;
-    position: relative;
-    bottom:112px;
-    left:164px;
-  }
-  
-  #email{
-    position:relative;
-    bottom: 100px;
-    left:30px;
-  }
-  
-  #button3{
-    color: white;
-    background: rgb(18, 181, 18);
-    border: 1px solid grey;
-    border-radius: 6px 6px 6px 6px;
-    width: 294px;
-    height: 46px;
-    position: relative;
-    bottom:89px;  
-    left:30px;  
-    
-  }
-  
-  
-  
-  
-  
-  
-  
-  #emailError{
-    font-size: 9px;
-    color: red;
-    position: absolute;
-    top:399px;
-    left: 110px;
-  }
-  .checkxx{
-    margin-left:-100px;
-  }
-  #check{
-    margin-left:33px;
-  }
-  
-
-  #remember{
-    color: grey;
-    font-size:11px;
-    margin-left:22px;
-    
-     
-  }
-  #dont{
-    color: grey;
-    font-size:12px;
-    margin-left:-85px;
-    
-  }
-  
-  #thelink{
-    text-decoration: none;
-    color:  rgb(18, 181, 18);
-    font-size:14px;
-    margin-left:-90px;
-  }
-
-  #terms{
-    color: grey;
-    font-size:8px;
-    margin-top:-27px;
-    margin-left:-330px;
-    
-     
-    
-  }   
-  
-  
-  
-      
-  
-    
-   
-  
-   
-  
-  
-  }
-  
-  
-  
-
+}
    

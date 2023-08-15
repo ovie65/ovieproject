@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Welcome Back</title>
+      <link rel="icon" href="elephant.PNG">
+      <style>
+         body{
+            margin: 0px auto;
+         }
+         .thebig{
+            margin: 0px auto;
+            text-align: center;
+            background: white;
+            width: 35%;
+            box-shadow: 0px 0px 10px rgb(10, 10, 10);
+         }
+         .thebig .forinnerbig{
+            text-align: center;
+            width: 70%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: column;
+         }
+         
+         .forinnerbig img{
+            width: 20%;
+            text-align: center;
+            margin: 0px auto -15px auto;
+         }
+         
+         .forinnerbig h1{
+            font-size: 50px;
+            font-weight: bold;
+            margin: 0px;
+         }
+         .forinnerbig .imp{
+            font-family: sans-serif;
+            font-size: 14px;
+            color: rgb(53, 53, 53);
+            margin-bottom: 40px;
+         }
+         .forinnerbig .dam{
+            background: none;
+            border-radius: 5px;
+            border: 1px solid rgb(209, 209, 209);
+            padding: 15px 0px;
+         }
+         .forinnerbig input{
+            padding: 15px 10px;
+            font-size: 16px;
+            border: 1px solid rgb(209, 209, 209);
+            outline: none;
+            margin-bottom: 10px;
+            border-radius: 5px;
+         }
+         .forinnerbig input~button{
+            border-radius: 5px;
+            background: #008F26;
+            padding: 15px 10px;
+            border: none;
+            color: white;
+            font-size: 17px;
+            margin-bottom: 30px;
+         }
+         .forinnerbig div{
+            color: rgb(88, 88, 88);
+            font-family: sans-serif;
+            font-size: 15px;
+            margin-bottom: 35px;
+         }
+         .forinnerbig div~p{
+            color: rgb(88, 88, 88);
+            font-family: sans-serif;
+            font-size: 13px;
+         }
+         .forinnerbig a{
+            text-decoration: none;
+            color: green;
+            margin-bottom: 30px;
+         }
+         @media screen and (max-width: 768px) {
+            .thebig{
+               margin: 0px auto;
+               text-align: center;
+               background: white;
+               width: 100%;
+               box-shadow: 0px 0px 10px black;
+            }
+            .thebig .forinnerbig{
+               text-align: center;
+               margin: 0px auto;
+               display: flex;
+               flex-direction: column;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div class="thebig">
+         <div class="forinnerbig">
+            <img src="elephant.PNG" alt="website-logo">
+            <h1>Evernote</h1>
+            <p class="imp">Remember everything important.</p>
+            <button class="dam">Continue with Google  </button><br>
+            <button class="dam">Continue with Apple</button>
+            <p class="faint">or</p>
+            <input type="text" placeholder="Email address or username"> 
+            <button>Continue</button>
+            <div>
+               <input type="checkbox">
+               Remember me for 30 days
+            </div>
+            <p>Don't have an account?</p>
+            <a href="#">Create account</a>
+         </div>
+      </div>
+   </body>
+</html>
