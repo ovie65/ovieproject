@@ -320,7 +320,7 @@ password
 
 
  
- <div class=" main">
+ <!-- <div class=" main">
 
       
   <div class="container p-3 mb-2 bg-white text-dark whitebox">
@@ -376,6 +376,20 @@ password
 
 
 
+height: 50px;
+    width: 430px;
+    borer: none;
+    outlie: none;
+    text-aign: center;
+    
+
+
+
+
+
+
+
+ -->
 
 
 
@@ -390,13 +404,7 @@ password
 
 
 
-
-
-
-
-
-
- .m1 {
+ <!-- .m1 {
   background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
@@ -534,30 +542,80 @@ password
           </div>
        </div>
     </body>
- </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ </html> -->
 </body>
 
-</html>
+ <!-- <div id="mycountdown">
+ <script>
+
+
+  let xmas = new Date('august 19, 2023 ').getTime();
+
+  function myCountdown(){
+    let now =new Date().getTime();
+    let distance = xmas-now;
+   let days= Math.floor(distance/(1000*60*60*24));
+
+   let hours= Math.floor((distance%
+   (1000*60*60*24))/(1000*60*60));
+
+   let minutes= Math.floor((distance%
+   (1000*60*60))/(1000*60));
+   
+   let secound= Math.floor((distance%
+   (1000*60))/1000);
+   document.getElementById('mycountdown').innerHTML=`${days} DAYS: ${hours} HR: ${minutes} MIN: ${secound} SEC`
+
+
+   if(distance<=0){
+    clearInterval(k);
+    document.getElementById('myCountdown').innerHTML ='gameup'
+    document.getElementById('myCountdown').style.backgroundColor.red;
+
+   }
+  }
+
+  let k = setInterval(myCountdown, 1000);
+
+
+
+
+
+
+ </script> -->
+ 
+
+
+ <h3 class="codm">DIGITAL TIME</h3>
+
+<h1 id="digitalme"></h1>
+<script>
+   
+    function digitalTime(){
+
+        let now = new Date() .getTime()
+
+        let hours = today.getHours((now%
+   (1000*60*60*24))/(1000*60*60));
+
+        let minutes = today.getMinute((now%
+   (1000*60*60))/(1000*60));
+
+        let seconds = today.getSeconds((now%
+   (1000*60))/1000);
+       
+        document.getElementById('digitalme').innerHTML = `${hours} HR: ${minutes} MIN: ${seconds} SEC`
+
+
+    }
+
+setInterval(digitalTime, 1000)
+
+
+    
+
+</script>
+
+
+
+ 

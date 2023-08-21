@@ -1,32 +1,89 @@
  
  body{
+        margin: 0px auto;
+      }
+ 
+
+
+ .main{
+    
     
  }
 
 .firstmain{
-    background-color:white;
-    position: relative;
-    right: 10px;
-    bottom: 29px;
-    height: 450px;
-    width: 620px;
+    float: left;
+
+    width:50%;
+    height:650px;
+    text-align: center;
+    margin:0px auto;
+    margin-top:-200px;
     
 }
-#icon{
-    width: 50px;
-    height: 50px;
+
+.secoundmain{
+    background-image: url(transparent.avif);
+    width:50%;
+    height:650px;
+    float:right;
+    margin-top:-150px;
+    text-align: center;
+    margin:0px auto;
+    margin-top:-200px;
+    
+}
+.innerfirstmain{
+    margin-top:50px;
+  
+}
+
+::placeholder{
+    font-size:10px;
+    position: relative;
+    bottom:20px;
+    color:black;
+}
+
+
+
+.innersecoundmain{
+    margin-top:90px;
+}
+
+
+
+input{
+    
+height: 50px;
+width: 430px;
+border: none;
+outline: none;
+
+
+
 
 }
+i{
+    
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 .dropdown{
     height: 200px;
 }
 #laun2ch{
     font-size: 25px;
-    transform: translate(50%);
-    position: absolute;
-    top: -20%;
-    left:-24%;
-
 }
 
 .m1{
@@ -35,10 +92,8 @@
     background-color: rgb(200, 235, 200);
     font-size: 15px;
     color: rgb(76, 185, 76);
-    transform: translate(50%);
     position: absolute;
-    bottom:92%;
-    left:67px;
+    right:92%;
 }
 .m2{
     padding: 7px;
@@ -46,10 +101,9 @@
     background-color: rgb(200, 235, 200);
     font-size: 15px;
     color: rgb(76, 185, 76);
-    transform: translate(50%);
     position: absolute;
-    top: 17%;
-    left:11%;
+    right:92%;
+   
 }
 .m3{
     padding: 7px;
@@ -57,10 +111,9 @@
     background-color: rgb(200, 235, 200);
     font-size: 15px;
     color: rgb(76, 185, 76);
-    transform: translate(50%);
     position: absolute;
-    top:115%;
-    left:-55px;
+    right:1161px;
+    top:50%;
     
 }
 mark{
@@ -71,121 +124,108 @@ mark{
 }
 #note1{
     font-size:14px;
-    transform: translate(50%);
-    position: absolute;
-    left:-89px;
+  text-align: left;
+  margin-left:120px;
+ 
 }
 #note2{
     font-size: 14px;
-    transform: translate(50%);
-    position: absolute;
-    bottom:64%;
-    left:-87px;
+    text-align: left;
+    margin-left:120px;
+   
+  
 
 }
 #note3{
     font-size: 14px;
-    transform: translate(50%);
-    position: absolute;
-    top:35%;
-    left:-93px;
+    text-align: left;
+    margin-left:120px;
+   
 
 }
 #highgrowth{
-    font-size: 14px;
+    font-size: 17px;
     color: rgba(89, 86, 86, 0.719);
-    transform: translate(50%);
-    position: absolute;
-    bottom: 30%;
-    left:5%;
+    margin-top:30px;
+   
 }
 .j1{
 
     opacity: 0.5;
-    transform: translate(50%);
-    position: absolute;
-    bottom:11%;
-    left:14%;
+    position: relative;
+    left:35px;
+    
+   
 }
 .j2{
     opacity:0.5;
     color: #27441d;
-    transform: translate(50%);
-    position: absolute;
-    bottom:11%;
-    left:25%;
+    position: relative;
+    top:70px;
+    left:-15px;
+   
     
 }
 .j3{
     opacity:0.5;
     color: #27441d;
-    transform: translate(50%);
-    position: absolute;
-    bottom:11%;
-    left:46%;
+    position: relative;
+    top:70px;
+     left:30px;
+    
 
 }
 .j4{
     opacity:0.5;
     color: #27441d;
-    transform: translate(50%);
-    position: absolute;
-    bottom:11%;
-    left:69%;
+    position: relative;
+    top:70px;
+    left:75px;
+  
     
 }
 .j5{
     opacity:0.5;
     color: #27441d;
-    transform: translate(50%);
-    position: absolute;
-    bottom: 19%;
-    left:59%;
+    position: relative;
+    left:15px;
+    
+    
+    
+   
     
 }
 .j6{
     opacity:0.5;
     color: #27441d;
-    transform: translate(50%);
-    position: absolute;
-    bottom: 19%;
-    left:36%;
+    position: relative;
+    top:-25px;
+     left:-15px;
+   
     
 }
 .j7{
     opacity:0.5;
     color: #27441d;
-    transform: translate(50%);
-    position: absolute;
-    bottom:19%;
-    left:14%;
+    position: relative;
+    top:-25px;
+    left:15px;
+   
  
 
 }
 img{
     width: 100%;
 }
-#backimg{
-    width: 629px;
-    height: 652px;
-    transform: translate(50%);
-    position: absolute;
-    top: -1%;
-    left:25%;
-    
-}
+
 #free{
-    transform: translate(50%);
-    position: absolute;
-    top:89px;
-    left:38%;
+    font-size:13px;
 }
 #getstarted{
-    font-size: 23px;
-    transform: translate(50%);
-    position: absolute;
-    left:50%;
-    top: 42px;
+    font-size: 27px;
+    margin-right:20 0px;
+
+  
     
     
 
@@ -195,37 +235,21 @@ img{
 
 #lastnote{
     font-size: 13px;
-    transform: translate(50%);
-    position: absolute;
-    top:510px;
-    left:592px;
+    float: left;
+    margin-left:100px;
+  
 }
 #last1{
     font-size: 13px;
-    transform: translate(50%);
-    position: absolute;
-    top:560px;
-    left:512px;
+    float: left; 
+    margin-left:100px;
     
 }
 
 
 
-#name1{
-    transform: translate(50%);
-    position: absolute;
-    top:206px;
-    left:505px;
-}
-#username{
-    height: 50px;
-    width: 430px;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
-}
+
+
 #username:hover{
     background: rgb(185, 169, 169);
 }
@@ -240,112 +264,55 @@ img{
 }
 #nametag{
     transform: translate(50%);
-    position: absolute;
-    left:18px;
-    bottom:17px;
+   
 }
 #name2{
     transform: translate(50%);
-    position: absolute;
-    top:256px;
-    left:505px;
-}
-#email{
-    height: 50px;
-    width: 430px;
-    border: none;
-    outline: none;
-    text-align: center;
-    
-}
-#companytag{
-    transform: translate(50%);
-    position: absolute;
-    left:5px;
-    bottom:12px;
-}
-#name3{
-    transform: translate(50%);
-    position: absolute;
-    top:306px;
-    left:505px;
-}
-#password{
-    height: 50px;
-    width: 430px;
-    border: none;
-    outline: none;
-    text-align: center;
-    
-}
-#emailtag{
-    transform: translate(50%);
-    position: absolute;
-    left:18px;
-    bottom:12px;
+   
 }
 
-#name4{
-    transform: translate(50%);
-    position: absolute;
-    top:356px;
-    left:505px;
-}
-#confirmPassword{
-    height: 50px;
-    width: 430px;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius:5px ;
-    
-    
 
-}
-#passwordtag{
-    transform: translate(50%);
-    position: absolute;
-    left:5px;
-    bottom:12px;
-}
+
+
+
+
+
 #goldbu{
     height: 50px;
     width: 430px;
     border: none;
     border-radius: 8px 8px 8px 8px;
     background: gold;
-    transform: translate(50%);
-    position: absolute;
-    top:440px;
-    left:509px;
+    margin-top:30px;
+   
 }
 
 #usernameError{
     color: red;
-    font-size: 10px;
-    position: absolute;
-    left: 300px;
+    font-size: 8px;
+   
+   
+   
 }
 #emailError{
     color: red;
-    font-size: 10px;
-    position: absolute;
-    left: 270px;
+    font-size: 8px;
+   
+   
     
 
 }
 #passwordError{
     color: red;
-    font-size: 10px;
-    position: absolute;
-    left: 300px;
+    font-size: 8px;
+
+   
 }
 #confirmPasswordError{
     color: red;
-    font-size: 10px;
-    position: absolute;
-    left: 300px;
+    font-size: 8px;
+    
+   
 }
 
 
@@ -367,462 +334,175 @@ img{
 
 @media screen and (max-width: 768px){
 
-.main{
-    width:100%
-}
 
-#backimg{
-  display: none;
-  width:100%;
-  
-  
+     .firstmain{
+        display: block;
+        width:100%;
+        text-align: center;
+        margin-left:-40px;
+      
+       
+       
+    }
+
+
+    .secoundmain{
+        text-align: center;
+        margin:0px auto;
+        background-image: none;
+        margin-right:100px;
+       margin-top:-200px;
+      
     
-}
+       
+       
+        
+    }
+
+    input{
+    
+        height: 50px;
+        width: 230px;
+        border: none;
+        outline: none;
+        display:block;
+        
+        
+        }
+
+
+        #goldbu{
+            height: 50px;
+            width: 230px;
+            border: none;
+            border-radius: 8px 8px 8px 8px;
+            background: gold;
+            margin-top:30px;
+           
+        } 
+
+        #laun2ch{
+            font-size:16px; 
+            margin-right:-90px;
+        }
+
+        
+        #note1 {
+            font-size:11px;     
+        }
+        #note2 {
+            font-size:11px;  
+        }
+        #note3 {
+            font-size:11px;  
+        }
 body{
-width:100%;
-
+    width:100%;
+    text-align: center;
+    margin:0px auto;
+   
 }
-
-.firstmain{
-    background-color:white;
-    position: relative;
-    right: 10px;
-    bottom: 29px;
-    height: 450px;
-    width:480px;
-    
-}
-
-
-#free{
-position: relative;
-top:445px;
-left:-220px;
-font-size:11px;
-
-
-}
-
-#getstarted{
-    font-size:19px;
-position: relative;
-top:325px;
-left:-220px;
-}
-
-.firstmain{
-    position: absolute;
-    top:170px;
-    left:-40px;
-}
-
-
-.secoundmain{
-    position: absolute;
-    left:100px;
-
-}
-
-#registrationForm{
-    position: absolute;
-    top:350px;
-    right:1100px;
-
+.main{
+    width:100%;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    white-space: nowrap;
+    font-size:10px;
 }
 
 #lastnote{
-    font-size: 13px;
-    position: relative;
-    left:-200px;
-    top:680px;
+    position:relative;
+    right:125px;
+    
 }
 #last1{
-    font-size: 13px;
-    position: relative;
-    left:-200px;
-    top:700px;
-    
-    
-    
+    position:relative;
+    right:230px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#laun2ch{
-    font-size:18px;
-    position: absolute;
-    top:-110px;
-    right:250px;
-
+#free{
+   position: relative;
+   right:100px;
 }
 
-
-
-#icon{
-    width: 50px;
-    height: 50px;
-
-}
-.dropdown{
-    height: 200px;
-}
-
-
-.m1{
-   font-size:12px;
-   padding:5px;
-   position: absolute;
-   left:35px;
-   bottom:430px;
-   
-}
-.m2{
-    font-size:12px;
-    padding:5px;
-    position: absolute;
-    top:70px;
-    left:35px;
-}
-.m3{
-    font-size:12px;
-    padding:5px;
-    position: absolute;
-    left:-50px;
-    top:107px;
-   
-    
-}
-mark{
-    background: rgb(18, 18, 18);
-    color:white;
-    border-radius: 3px 3px 3px 3px;
-    padding:3px;
-}
-#note1{
-    font-size:8px;
-    position: absolute;
-    right:225px;
-    
-}
-#note2{
-    font-size: 10px;
-    position: absolute;
-    bottom:315px;
-    right:225px;
-    
-   
-}
-#note3{
-    font-size: 10px;
-    position: absolute;
-    bottom:315px;
-    right:225px;
- 
-}
 #highgrowth{
-    font-size: 11px;
-    color: rgba(89, 86, 86, 0.719);
-    position: absolute;
-    left:-40px;
-   
+    margin-right:-90px;
 }
+
+
 .j1{
 
     opacity: 0.5;
-    position: absolute;
-    left:30px;
-    font-size:11px;
-
- 
+    position: relative;
+    top:20px;
+    left:125px;
+   
+   
 }
 .j2{
     opacity:0.5;
     color: #27441d;
-    left:90px;
-    font-size:11px;
+    position: relative;
+    top:70px;
+    left:10px;
 
-}
+    
    
+    
+}
 .j3{
     opacity:0.5;
     color: #27441d;
-    left:180px;
-    font-size:11px;
-
-   
+    position: relative;
+    top:70px;
+    left:60px;
+    
 
 }
 .j4{
     opacity:0.5;
     color: #27441d;
-    left:279px;
-    font-size:11px;
+    position: relative;
+    top:70px;
+    left:105px;
+  
     
 }
 .j5{
     opacity:0.5;
     color: #27441d;
-    left:20px;
-    font-size:12px;
-  
+    position: relative;
+    top:20px;
+    left:-35px;
+    
    
     
 }
 .j6{
     opacity:0.5;
     color: #27441d;
-    left:140px;
-    font-size:12px;
+    position: relative;
+    top:20px;
+    left:15px;
    
+    
 }
 .j7{
     opacity:0.5;
     color: #27441d;
-    left:245px;
-    font-size:12px;
+    position: relative;
+    top:70px;
+    left:-8px;
    
 
-}
-img{
-    width: 100%;
-}
-
-
-
-
-
-#lastnote{
-    font-size: 13px;
-    transform: translate(50%);
-   
-}
-#last1{
-    font-size: 13px;
-    transform: translate(50%);
-    
-    
+        
+        
 }
 
 
-
-#name1{
-    position: absolute;
-    left:605px;
-    top:224px;
-    border-top: 1px  solid rgba(0, 0, 0, 0.1) ;
-    box-shadow: 0px -2px rgba(0, 0, 0, 0.1) ;
-    padding:3px;
-   
-}
-#username{
-    height: 35px;
-    width: 300px;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-top-left-radius:5px;
-    border-top-right-radius:5px;
-    border-bottom:1px solid rgba(0, 0, 0, 0.1);
-   
-    
-    
-    
-    
-}
-#username:hover{
-    background:none;
-}
-#email:hover{
-    background:none;
-}
-#password:hover{
-    background:none;
-}
-#confirmPassword:hover{
-    background:none;
-}
-#nametag{
-   
-    position: absolute;
-    left:-11px;
-    bottom:29px;
-    font-size:9px;
-    
-}
-#name2{
-    position: absolute;
-    left:605px;
-    top:265px;
-   
-}
-#email{
-    height: 35px;
-    width: 300px;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-bottom:1px solid rgba(0, 0, 0, 0.1);
-    
-    
-    
-    
-}
-#companytag{
-    font-size:9px;
-    bottom:25px;
-    left:-14px;
- 
-}
-#name3{
-    position: absolute;
-    left:605px;
-    
-}
-#password{
-    height: 35px;
-    width: 300px;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-bottom:1px solid rgba(0, 0, 0, 0.1);
-    
-    
-    
-}
-#emailtag{
-    font-size:9px;
-    bottom:25px;
-    left:-6px;
-    
+i{
+    margin-left:-4px;
 }
 
-#name4{
-    position: absolute;
-    left:605px;
-    top:345px;
-    
-}
-#confirmPassword{
-    height: 35px;
-    width: 300px;
-    border: none;
-    outline: none;
-    text-align: center;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius:5px ;
-    border-bottom:1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 2px rgba(0, 0, 0, 0.1) ;
-    
-    
-    
-
-}
-#passwordtag{
-    font-size:9px;
-   bottom:25px;
-   left:-14px;
-}
-#goldbu{
-    height:35px;
-    width: 300px;
-    border: none;
-    border-radius: 8px 8px 8px 8px;
-    background: gold;
-    position: absolute;
-    left:605px;
-    top:400px;
-   
-}
-
-#usernameError{
-    color: red;
-    font-size: 5px;
-    position: absolute;
-    top:-10px;
-    left:4px;
- 
-}
-#emailError{
-    color: red;
-    font-size: 5px;
-    position: absolute;
-    top:-3px;
-    left:54px;
-   
-    
-
-}
-#passwordError{
-    color: red;
-    font-size: 5px;
-    position: absolute;
-    top:-7px;
-    left:54px;
-   
-}
-#confirmPasswordError{
-    color: red;
-    font-size: 5px;
-    position: absolute;
-    top:-5px;
-    left:57px;
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-}
 }
