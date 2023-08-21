@@ -388,16 +388,19 @@ img{
 
         
         #note1 {
-            font-size:11px;     
+            font-size:11px; 
+            margin-left:70px;    
         }
         #note2 {
-            font-size:11px;  
+            font-size:11px; 
+            margin-left:70px;    
         }
         #note3 {
             font-size:11px;  
+            margin-left:70px;    
         }
 body{
-    width:100%;
+    width:80%;
     text-align: center;
     margin:0px auto;
    
@@ -422,8 +425,13 @@ body{
 }
 
 #free{
+    font-size:12px;
    position: relative;
-   right:100px;
+   right:80px;
+}
+
+#getstarted{
+    margin-left:-10px;
 }
 
 #highgrowth{
@@ -436,7 +444,7 @@ body{
     opacity: 0.5;
     position: relative;
     top:20px;
-    left:125px;
+    left:105px;
    
    
 }
@@ -445,7 +453,7 @@ body{
     color: #27441d;
     position: relative;
     top:70px;
-    left:10px;
+    left:28px;
 
     
    
@@ -465,7 +473,7 @@ body{
     color: #27441d;
     position: relative;
     top:70px;
-    left:105px;
+    left:90px;
   
     
 }
@@ -484,7 +492,7 @@ body{
     color: #27441d;
     position: relative;
     top:20px;
-    left:15px;
+    left:5px;
    
     
 }
@@ -493,16 +501,25 @@ body{
     color: #27441d;
     position: relative;
     top:70px;
-    left:-8px;
-   
+    left:-15px;
 
-        
-        
+}
+
+.m1{
+    margin-right:-23px;
+}
+.m2{
+    margin-right:-23px;
+}
+.m3{
+    position: relative;
+    top:20px;
+    left:-189px;
 }
 
 
 i{
-    margin-left:-4px;
+    margin-left:-12px;
 }
 
 }
