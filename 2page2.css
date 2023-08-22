@@ -335,6 +335,9 @@ img{
 @media screen and (max-width: 768px){
 
 
+
+    
+
      .firstmain{
         display: block;
         width:100%;
@@ -366,8 +369,13 @@ img{
         border: none;
         outline: none;
         display:block;
+        box-shadow: 0px 0px 10px black;
         
         
+        }
+        #registrationForm{
+           position: relative;
+           top:30px;
         }
 
 
@@ -417,17 +425,20 @@ body{
 #lastnote{
     position:relative;
     right:125px;
+    top:30px;
     
 }
 #last1{
+  font-size:10px;
     position:relative;
-    right:230px;
+    right:160px;
+    top:30px;
 }
 
 #free{
     font-size:12px;
-   position: relative;
-   right:80px;
+  position: absolute;
+  left:7%;
 }
 
 #getstarted{
@@ -435,7 +446,8 @@ body{
 }
 
 #highgrowth{
-    margin-right:-90px;
+   position: relative;
+   left:42px;
 }
 
 
@@ -519,7 +531,36 @@ body{
 
 
 i{
-    margin-left:-12px;
+    margin-left:-15px;
 }
+#usernameError{
+   position: absolute;
+   right:67%;
+   
+   
+   
+}
+#emailError{
+    position: absolute;
+   right:40%;
+   
+   
+    
+
+}
+#passwordError{
+    
+    position: absolute;
+    right:54%;
+   
+}
+#confirmPasswordError{
+    position: absolute;
+    bottom:20%;
+   
+    
+   
+}
+
 
 }

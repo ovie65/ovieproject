@@ -585,7 +585,7 @@ height: 50px;
  </script> -->
  
 
-
+<!-- 
  <h3 class="codm">DIGITAL TIME</h3>
 
 <h1 id="digitalme"></h1>
@@ -618,4 +618,141 @@ setInterval(digitalTime, 1000)
 
 
 
- 
+  -->
+
+<div style="text-align: center; width:100%;">
+  <h1>Countdown</h1>
+<h1 class="counter">
+  <span id="min">00</span>
+  <span id="colm">:</span>
+  <span id="sec">00</span>
+</h1>
+
+<div style="margin-left:-50px;">
+<button
+id="start"style="background:green">start</button>
+<button
+id="pause"style="background:orange">pause</button>
+<button
+id="cont"
+style="background:green">continue</button>
+<button
+id="stop"
+style="background:red">stop</button>
+<button
+id="reset"style="background:red">Reset</button>
+
+
+</div>
+</div>
+
+
+<style>
+  #pause,#cont,#cont,#stop,#reset{
+    display:none;
+  }
+  button{
+    height:60px;
+    width:20%;
+    border-radius:5px 5px 5px 5px;
+  }
+</style>
+
+<script>
+
+let minn=document.getElementById
+('min');
+let secc=document.getElementById
+('sec');
+let startt=document.getElementById
+('start');
+let pausee=document.getElementById
+('pause');
+let contt=document.getElementById
+('cont');
+let stopp=document.getElementById
+('stop');
+let resett=document.getElementById
+('reset');
+
+let efg=0;
+let k;
+let stopengine;
+
+
+function engine(){
+  ++efg;
+  let mm= parseInt(1/60);
+  let ss= efg%60;
+
+
+  if(ss==7){
+    stopengine();
+    resett.innerHTML='PENS UP, CLICK TO  START AGAIN fooooooool'
+  }else{
+    mm= (mm<10)? '0'+mm:ss;
+    ss= (ss<10)? '0'+ss:ss;
+
+    minn.innerHTML=mm
+    secc.innerHTML=ss;
+  }
+
+};
+
+function count(){
+  k=setInterval(engine, 1000);
+}
+
+
+function startengine(){
+  count();
+  startt.style.display="none";
+  pausee.style.display="inline";
+  stopp.style.display="inline";
+}
+
+function pauseengine(){
+  clearInterval(k);
+  pausee.style.display="none"
+  contt.style.display="inline";
+}
+
+function countengine(){
+  count(k);
+  pausee.style.display="inline"
+  contt.style.display="none";
+}
+
+stopengine = function(){
+  clearInterval(k);
+  pausee.style.display="none"
+  stopp.style.display="none";
+  resett.style.display="inline";
+}
+
+function resetengine(){
+  clearInterval(k);
+  resett.style.display="none"
+  efg=0;
+  document.getElementById('min').innerHTML='00';
+  document.getElementById('sec').innerHTML="00";
+  start.style.display="inline";
+  start.innerHTML='START AGAIN';
+  pausee.style.display="none"
+}
+
+
+startt.addEventListener('click',startengine);
+pausee.addEventListener('click',pauseengine);
+contt.addEventListener('click',countengine);
+stopp.addEventListener('click',stopengine);
+resett.addEventListener('click',resetengine);
+
+
+
+
+
+
+
+</script>
+
