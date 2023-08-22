@@ -338,229 +338,229 @@ img{
 
     
 
-     .firstmain{
-        display: block;
-        width:100%;
-        text-align: center;
-        margin-left:-40px;
+    .firstmain{
+       display: block;
+       width:100%;
+       text-align: center;
+       margin-left:-40px;
+     
       
-       
-       
-    }
-
-
-    .secoundmain{
-        text-align: center;
-        margin:0px auto;
-        background-image: none;
-        margin-right:100px;
-       margin-top:-200px;
       
-    
-       
-       
-        
-    }
-
-    input{
-    
-        height: 50px;
-        width: 230px;
-        border: none;
-        outline: none;
-        display:block;
-        box-shadow: 0px 0px 10px black;
-       -webkit-appearance:none;
-        
-        
-        }
-        #registrationForm{
-           position: relative;
-           top:30px;
-        }
+   }
 
 
-        #goldbu{
-            height: 50px;
-            width: 230px;
-            border: none;
-            border-radius: 8px 8px 8px 8px;
-            background: gold;
-            margin-top:30px;
-           
-        } 
-
-        #laun2ch{
-            font-size:16px; 
-            margin-right:-90px;
-        }
-
-        
-        #note1 {
-            font-size:11px; 
-            margin-left:70px;    
-        }
-        #note2 {
-            font-size:11px; 
-            margin-left:70px;    
-        }
-        #note3 {
-            font-size:11px;  
-            margin-left:70px;    
-        }
-body{
-    width:80%;
-    text-align: center;
-    margin:0px auto;
+   .secoundmain{
+       text-align: center;
+       margin:0px auto;
+       background-image: none;
+       margin-right:100px;
+      margin-top:-200px;
+     
    
+      
+      
+       
+   }
+
+   input{
+   
+       height: 50px;
+       width: 230px;
+       border: none;
+       outline: none;
+       display:block;
+       box-shadow: 0px 0px 10px black;
+      -webkit-appearance:none;
+       
+       
+       }
+       #registrationForm{
+          position: relative;
+          top:30px;
+       }
+
+
+       #goldbu{
+           height: 50px;
+           width: 230px;
+           border: none;
+           border-radius: 8px 8px 8px 8px;
+           background: gold;
+           margin-top:30px;
+          
+       } 
+
+       #laun2ch{
+           font-size:16px; 
+           margin-right:-90px;
+       }
+
+       
+       #note1 {
+           font-size:11px; 
+           margin-left:70px;    
+       }
+       #note2 {
+           font-size:11px; 
+           margin-left:70px;    
+       }
+       #note3 {
+           font-size:11px;  
+           margin-left:70px;    
+       }
+body{
+   width:80%;
+   text-align: center;
+   margin:0px auto;
+  
 }
 .main{
-    width:100%;
-    text-align: center;
-    margin: 0px auto;
-    display: block;
-    white-space: nowrap;
-    font-size:10px;
+   width:100%;
+   text-align: center;
+   margin: 0px auto;
+   display: block;
+   white-space: nowrap;
+   font-size:10px;
 }
 
 #lastnote{
-    position:relative;
-    right:125px;
-    top:30px;
-    
+   position:relative;
+   right:125px;
+   top:30px;
+   
 }
 #last1{
-  font-size:10px;
-    position:relative;
-    right:160px;
-    top:30px;
+ font-size:10px;
+   position:relative;
+   right:160px;
+   top:30px;
 }
 
 #free{
-    font-size:12px;
-  position: absolute;
-  left:7%;
+   font-size:12px;
+ position: absolute;
+ left:7%;
 }
 
 #getstarted{
-    margin-left:-10px;
+   margin-left:-10px;
 }
 
 #highgrowth{
-   position: relative;
-   left:42px;
+  position: relative;
+  left:42px;
 }
 
 
 .j1{
 
-    opacity: 0.5;
-    position: relative;
-    top:20px;
-    left:105px;
-   
-   
+   opacity: 0.5;
+   position: relative;
+   top:20px;
+   left:105px;
+  
+  
 }
 .j2{
-    opacity:0.5;
-    color: #27441d;
-    position: relative;
-    top:70px;
-    left:28px;
+   opacity:0.5;
+   color: #27441d;
+   position: relative;
+   top:70px;
+   left:28px;
 
-    
    
-    
+  
+   
 }
 .j3{
-    opacity:0.5;
-    color: #27441d;
-    position: relative;
-    top:70px;
-    left:60px;
-    
+   opacity:0.5;
+   color: #27441d;
+   position: relative;
+   top:70px;
+   left:60px;
+   
 
 }
 .j4{
-    opacity:0.5;
-    color: #27441d;
-    position: relative;
-    top:70px;
-    left:90px;
-  
-    
+   opacity:0.5;
+   color: #27441d;
+   position: relative;
+   top:70px;
+   left:90px;
+ 
+   
 }
 .j5{
-    opacity:0.5;
-    color: #27441d;
-    position: relative;
-    top:20px;
-    left:-35px;
-    
+   opacity:0.5;
+   color: #27441d;
+   position: relative;
+   top:20px;
+   left:-35px;
    
-    
+  
+   
 }
 .j6{
-    opacity:0.5;
-    color: #27441d;
-    position: relative;
-    top:20px;
-    left:5px;
+   opacity:0.5;
+   color: #27441d;
+   position: relative;
+   top:20px;
+   left:5px;
+  
    
-    
 }
 .j7{
-    opacity:0.5;
-    color: #27441d;
-    position: relative;
-    top:70px;
-    left:-15px;
+   opacity:0.5;
+   color: #27441d;
+   position: relative;
+   top:70px;
+   left:-15px;
 
 }
 
 .m1{
-    margin-right:-23px;
+   margin-right:-23px;
 }
 .m2{
-    margin-right:-23px;
+   margin-right:-23px;
 }
 .m3{
-    position: relative;
-    top:20px;
-    left:-189px;
+   position: relative;
+   top:20px;
+   left:-184px;
 }
 
 
 i{
-    margin-left:-15px;
+   margin-left:-15px;
 }
 #usernameError{
-   position: absolute;
-   right:67%;
-   
-   
-   
+  position: absolute;
+  right:67%;
+  
+  
+  
 }
 #emailError{
-    position: absolute;
-   right:40%;
+   position: absolute;
+  right:40%;
+  
+  
    
-   
-    
 
 }
 #passwordError{
-    
-    position: absolute;
-    right:54%;
    
+   position: absolute;
+   right:54%;
+  
 }
 #confirmPasswordError{
-    position: absolute;
-    bottom:20%;
+   position: absolute;
+   bottom:20%;
+  
    
-    
-   
+  
 }
 
 
