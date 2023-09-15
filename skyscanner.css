@@ -1,6 +1,6 @@
 .firstbox{
-    background: rgb(3, 3, 68);
-    height:330px;
+    background: rgb(3, 32, 56);
+    height:385px;
 
     
 }
@@ -79,14 +79,477 @@
     }
 
 
-    .istbu{
-        position: absolute;
-        top:31%;
-        right:78%;
-        height:73px;
-        width:210px;
-         border-top-left-radius:10px;
-         border-bottom-left-radius: 10px;
+    
+    .form-floating{
+        width:17%;
+        display:inline-block;
+        margin-top:185px;
+
+    }
+    #searchbutton{
+        margin-left:12px;
+        margin-bottom:20px;
+        height:61px;
+    }
+    .firstbox2{
+        display:none;
+    }
+    #flexCheckDefault{
+        margin-left:20px;
+    }
+    .form-check-label{
+        color: white;
+        margin-left:-1060px;
+    }
+    #light11{
+        display:none;
+    }
+    #light22{
+        display:none;
+    }
+    #light33{
+        display:none;
+    }
+    .form-check{
+        
+    }
+   
+   
+    #yesyes{
+     position: absolute;
+     right:8%;
+     top:108%;
+     width:8%;
+     height:47px;
+    }
+    #searchbuttonxx{
+        display:none;
+    }
+    #kkk{
+        margin-top:100px;
+        margin-right:450px;
+        width:29%;
+        height:70px;
+        background: rgb(3, 32, 56);
+        border-radius: 10px 10px 10px 10px;
+    }
+    #hhh{
+        display:none;
+    }
+    #jjj{
+        margin-top:100px;
+      width:29%;
+      height:70px;
+      background: rgb(3, 32, 56);
+      border-radius:10px 10px 10px 10px;
+
+    }
+    
+    #www{
+        margin-top:-100px;
+        width:29%;
+        height:70px;
+        background: rgb(3, 32, 56);
+        border-radius:10px 10px 10px 10px;
+
     }
 
+    #aaa{
+       display: none;
 
+    
+    }
+    #bbb{
+       display: none;
+    
+    }
+    #ccc{
+       display:none;
+    }
+
+    
+ #giff{
+    width:94%;
+    height:450px;
+    border-radius:10px 10px 10px 10px;
+    margin-top:180px;
+  }
+
+  .mb-3{
+    width:30%;
+    height:71px;
+    margin-right:776px;
+    margin-top:25px;
+  
+   
+  }
+  .mb-4{
+    width:30%;
+    height:71px;
+    margin-right:776px;
+  
+  }
+  .mb-5{
+    width:30%;
+    height:71px;
+    margin-right:776px;
+ 
+  }
+  .mb-6{
+    width:30%;
+    height:71px;
+   position: absolute;
+   right:35%;
+   bottom:-82%;
+  
+    
+  }
+  .mb-7{
+    width:30%;
+    height:71px;
+    position: absolute;
+    right:35%;
+   bottom:-97%;
+  
+    
+   
+  }
+  .mb-8{
+    width:30%;
+    height:71px;
+    position: absolute;
+    right:35%;
+   bottom:-112%;
+  
+  
+    
+  }
+
+  .mb-9{
+    width:30%;
+    height:71px;
+    position: absolute;
+    left:66%;
+    bottom:-82%;
+    
+   
+ 
+    
+  }
+  .mb-10{
+    width:30%;
+    height:71px;
+    position: absolute;
+    left:66%;
+    bottom:-97%;
+   
+   
+    
+  }
+  .mb-11{
+    width:30%;
+    height:71px;
+    position: absolute;
+    left:66%;
+    bottom:-112%;
+   
+    
+  
+    
+  }
+  .mb-22,.mb-23,.mb-24,.mb-25,.mb-26,.mb-27,.mb-28,.mb-29,.mb-30{
+    display: none;
+  }
+
+  .card-title{
+    color: black;
+  }
+  .card-text{
+    color: blue;
+  }
+
+
+  #bookcheap{
+    margin-left:-450px;
+    
+  }
+  #bookcheap2{
+   
+   
+  }
+  #bookcheap3{
+    margin-left:-910px;
+    border-bottom:1px solid grey;
+    padding:17px;
+  }
+
+  #bookcheap4{
+    display: none;
+  }
+  #bookcheap5{
+display: none;
+  }
+  
+  #bookcheap6{
+display: none;
+  }
+
+
+  #usaflag{
+    background: rgb(3, 32, 56);
+    margin-right:700px;
+  }
+
+  .lastdiv{
+    background: rgb(3, 32, 56);
+    height:400px;
+    margin-top:50px;
+  }
+  .link{
+    display: grid;
+  }
+  #lastlast{
+    color: white
+  }
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    @media screen and (max-width: 768px){
+
+        body{
+            overflow-x: hidden;
+        }
+        .firstbox{
+            background: rgb(3, 32, 56);
+            height:65vh;
+        
+            
+        }
+
+     .firstbox1{
+        display:none;
+       
+     }
+     .million{
+        display:none;
+     }
+     .firstbox2{
+        display: inline-block;
+     }
+     .form-floating10{
+       position: absolute;
+       top:17%;
+       left:10%;
+        width:150px;
+     }
+     #icontext{
+        font-size:28px;
+        margin-left:30px;
+     }
+     #icon{
+        position: absolute;
+        left:4%;
+        top:8%;
+     }
+     .g3{
+        margin-left:-60px;
+     }
+     .g4{
+        margin-left:-5px;
+     }
+     .g5{
+        margin-left:-45px;
+     }
+     #logintext{
+        margin-left:-28px;
+     }
+     #light11{
+       display: block;
+       width:90%;
+       position: absolute;
+       left:5%;
+       top:26%;
+    }
+    #light22{
+        display:block;
+        position: absolute;
+        left:5%;
+        top:33%;
+        width:44%;
+        height:48px;
+    }
+    #light33{
+        display:block;
+        position: absolute;
+        left:50%;
+        top:33%;
+        width:45%;
+        height:48px;
+    }
+    #floatingInputValuex{
+        color: white;
+        background-color: rgb(28, 28, 54);
+    }
+  
+  
+
+  .form-check{
+    display:inline;
+    position: absolute;
+    top:45%;
+    right:73%;
+    color: white;
+  }
+
+  #searchbuttonxx{
+    display: block;
+   position: absolute;
+   top:54%;
+   width:90%;
+   height:45px;
+    right:5%;
+    border-radius:10px 10px 10px 10px;
+  }
+  .form-check-labelx{
+    white-space: nowrap;
+  }
+  #kkk{
+
+    display: none;
+}
+#jjj{
+  display: none;
+
+}
+#www{ 
+  display: none;
+    
+}
+
+
+#aaa{
+   position: absolute;
+   top:75%;
+   left:3%;
+    display: inline;
+    width:29%;
+    height:90px;
+    background: rgb(3, 32, 56);
+    border-radius:10px 10px 10px 10px;
+
+}
+#bbb{
+    left:35%;
+   position: absolute;
+   top:75%;
+    display: inline;
+    width:29%;
+    height:90px;
+    background: rgb(3, 32, 56);
+    border-radius:10px 10px 10px 10px;
+
+}
+#ccc{
+    position: absolute;
+    left:68%;
+    top:75%;
+    display: inline;
+    width:29%;
+    height:90px;
+    background: rgb(3, 32, 56);
+    border-radius:10px 10px 10px 10px;
+
+}
+.mb-3 , .mb-4,.mb-5,.mb-6,.mb-7,.mb-8,.mb-9,.mb-10,.mb-11{
+    display: none;
+  }
+
+
+
+  .mb-22,.mb-23,.mb-24,.mb-25,.mb-26,.mb-27,.mb-28,.mb-29,.mb-30{
+    display: block;
+  
+  }
+
+
+  
+   
+  
+   
+   
+  
+  .card-title{
+    color: black;
+  }
+  .card-text{
+    color: blue;
+  }
+
+
+  #bookcheap4{
+    display: block;
+  }
+  #bookcheap5{
+    display: block;
+  }
+  
+  #bookcheap6{
+    display: block;
+  }
+  
+
+
+  #bookcheap{
+    display: none;
+  }
+  #bookcheap2{
+    display: none;
+  }
+  #bookcheap3{
+    display: none;
+  }
+
+
+  #lastlast{
+font-size:11px
+  }
+  
+
+  
+  
+
+
+
+
+}
+
+
+
+     
+     
+
+     
+    
+     

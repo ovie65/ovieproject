@@ -10,623 +10,351 @@
     
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <div>
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          8pages
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="index.html">Evernote</a></li>
-            <li><a class="dropdown-item" href="2page.html">aptible</a></li>
-            <li><a class="dropdown-item" href="overflow.html">overflow</a></li>
-            <li><a class="dropdown-item" href="skyscanner.html">skyscanner</a></li>
-        </ul>
-      </div>
-    <div class="main">
-    <div class="firstmain">
-    <p id="laun2ch">Launch, grow, and scale your app without </br> stopping to work on infrastructure </p>
-    <i class="fa fa-check-circle m1" aria-hidden="true"></i>
-    <p id="note1">Launch</br>Give aptible your code via <mark>git hub</mark> or point at a Docker registry and</br>be up and  running without any work or Config</p>
-    <i class="fa fa-check-circle m2" aria-hidden="true"></i>
-    <p id="note2">Grow</br>Aptible handles all infrastructure operations: zero-downtime deploys,</br> instant rollbacks, metrics and logs that are both easy to find and use,</br> managed databases, and more.
-        <i class="fa fa-check-circle m3" aria-hidden="true"></i>
-    <p id="note3">Scale</br> requirements such as performance, security, compliance</br> inheritance, and reliability are baked into the Aptible platform from day </br> one.</p>
 
-        <p id="highgrowth"><b>HIGH GROWTH COMPANIES THAT HAVE SCALED</br>
-            WITH NO INFRASTRUCTURE USING APTIBLE</b></p>
-            <i class="fa-brands fa-xbox j1" style="color: #27441d;">X-box</i>
-            <i class="fa-brands fa-telegram j2">telegram</i>
-            <i class="fa-brands fa-whatsapp j3">whatsapp</i>
-            <i class="fa-brands fa-facebook j4">facebook</i>
-            <i class="fa-brands fa-kickstarter j5">Kickstarter</i>
-            <i class="fa-brands fa-pinterest j6">pinterest</i>
-            <i class="fa-brands fa-youtube j7">Youtube</i>
-    </div>
-    <div class="secoundmain">
-        <img id="backimg" src="images.jfif">
-        <p id="free">
-            Aptible’s PaaS automates the work of provisioning, managing, and scaling </br>infrastructure, so you can focus on what matters: your product.
-        </p>
-        <p id="getstarted">Get started for free</p>
-      
 
-        <form id="registrationForm">
-            <div id="name1">
-                <label for="username" id="nametag">Name</label>
-                <input id="username">
-                <span id="usernameError" class="error"></span>
-            </div>
-            <div id="name2">
-                <label for="email" id="companytag">Company</label>
-                <input id="email" onchange="validateemail()">
-                <span id="emailError" class="error"></span>
-            </div>
-            <div id="name3">
-                <label for="password" id="emailtag" >Email</label>
-                <input id="password">
-                <span id="passwordError" class="error"></span>
-            </div>
-            <div id="name4">
-                <label for="confirmPassword" id="passwordtag"> Password</label>
-                <input id="confirmPassword">
-                <span id="confirmPasswordError" class="error"></span>
-            </div>
-            <button type="submit" id="goldbu">Create account</button>
-        </form>
-        
-      
-
-        <p id="lastnote">If you already have an account, you can log in here.</p>
-        <p id="last1">By submitting this form, I confirm that I have read and agree to Aptible's Terms of </br>Service and Privacy Policy.</p>
-
-        
-
-        </div>
-        
-    </div>
-</div>
+<!-- <h1>Hotel booking</h1>
+<form>
+   <label for="days">Number of days:</label>
+   <input type="number" id="days" min="1" ><br><br>
    
-    
+   <button
+ 
+   <div style="text-align: center; width:100%;">
+   
+
+   <p id="totalCost"></p>
+</form>
+
+
+
+
+ <h1 class="counter">
+   <span id="min">00</span>
+   <span id="colm">:</span>
+   <span id="sec">00</span>
+ </h1>
+ 
+ <div style="margin-left:-50px;">
+ 
+ 
+ <button
+  id="start" value="Calculate Total"onclick="calculateTotal()">calculateTotal</button>
+ <button
+ id="pause"style="background:orange">pause</button>
+ <button
+ id="cont"
+ style="background:green">continue</button>
+ <button
+ id="stop"
+ style="background:red">stop</button>
+ <button
+ id="reset"style="background:red">Reset</button>
+ 
+ 
+ </div>
+ 
+ 
+ 
+ <style>
+   #pause,#cont,#cont,#stop,#reset{
+     display:none;
+   }
+   #days{
+     height:60px;
+     width:20%;
+     border-radius:5px 5px 5px 5px;
+   }
+ </style>
 </body>
 
 
 
+
+
+
 <script>
+   function calculateTotal(){
+      let priceforaDay =5000;
+      let days=document.getElementById("days").value;
+      let totalCost= priceforaDay*days;
 
-    const form = document.getElementById("registrationForm");
-    const username = document.getElementById("username");
-    const email = document.getElementById("email");
-    const password = document.getElementById("password");
-    const confirmPassword = document.getElementById("confirmPassword");
-    const usernameError = document.getElementById("usernameError");
-    const emailError = document.getElementById("emailError");
-    const passwordError = document.getElementById("passwordError");
-    const confirmPasswordError = document.getElementById("confirmPasswordError");
 
-    const emailformat = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-    const passformat = /^(?=.[a-z])(?=.[A-Z])(?=.[0-9])(?=.[!@#\$%\^&])[a-zA-Z0-9!@#\$%\^&]{5,15}$/;
+      document.getElementById("totalCost").innerHTML="totalCost:#"+totalCost
 
-    function validateemail(){
-        if (!email.value) {
-                    emailError.textContent = "you must put the email";
-                    
-                } else if (!email.value.match(emailformat)) {
-                    emailError.textContent = "Email is not in the correct format";
-                    
-                } else {
-                    emailError.textContent = " valid email";
-                    emailError.style.color = "blue";
-                }
-    }
-    
-    form.addEventListener("submit", function(x) {
-        
-        x.preventDefault();
 
-        let isValid = true;
-
-        if (!username.value) {
-            usernameError.textContent = "name is required";
-            isValid = false;
-        } else {
-            usernameError.textContent = "Please fill the remaining form";
-            usernameError.style.color = "blue"
-        }
-
-        if (!email.value) {
-            emailError.textContent = "You must put a company name";
-            isValid = false;
-        } else if (!email.value.match(emailformat)) {
-            emailError.textContent = "Email is not in the correct format";
-            isValid = false;
-        } else {
-            emailError.textContent = " valid email";
-            emailError.style.color = "blue";
-        }
-
-        if (!password.value) {
-            passwordError.textContent = "please put a valid email";
-            isValid = false;
-        } else if (!password.value.match(passformat)) {
-            passwordError.textContent = "Email must end with @gmail.com";
-            isValid = false;
-        } else {
-            passwordError.textContent = " Email is okay";
-            passwordError.style.color = "blue";
-        }
-
-        if (password.value !== confirmPassword.value) {
-            confirmPasswordError.textContent = "Please put a strong password";
-            isValid = false;
-        } else {
-            confirmPasswordError.textContent = "Don't forget your password";
-        }
-
-        if (isValid) {
-            form.submit();
-        }
-    });
 </script>
+<script>
+  let minn=document.getElementById
+ ('min');
+ let secc=document.getElementById
+ ('sec');
+ let startt=document.getElementById
+ ('start');
+ let pausee=document.getElementById
+ ('pause');
+ let contt=document.getElementById
+ ('cont');
+ let stopp=document.getElementById
+ ('stop');
+ let resett=document.getElementById
+ ('reset');
+ 
+ let efg=0;
+ let k;
+ let stopengine;
+ 
+ 
+ function engine(){
+   ++efg;
+   let days= parseInt((60*60*24))
+   let mm= parseInt(1/60);
+   let ss= efg%60;
+ 
+ 
+   if(ss==3){
+     stopengine();
+     resett.innerHTML='PENS UP, CLICK TO  START AGAIN fooooooool'
+
+
+   }else{
+     mm= (mm<10)? '0'+mm:ss;
+     ss= (ss<10)? '0'+ss:ss;
+ 
+     minn.innerHTML=mm
+     secc.innerHTML=ss;
+   }
+ 
+ };
+ 
+ function count(){
+   k=setInterval(engine, 1000);
+ }
+ 
+ 
+ function startengine(){
+   count();
+   startt.style.display="none";
+   pausee.style.display="inline";
+   stopp.style.display="inline";
+ }
+ 
+ function pauseengine(){
+   clearInterval(k);
+   pausee.style.display="none"
+   contt.style.display="inline";
+ }
+ 
+ function countengine(){
+   count(k);
+   pausee.style.display="inline"
+   contt.style.display="none";
+ }
+ 
+ stopengine = function(){
+   clearInterval(k);
+   pausee.style.display="none"
+   stopp.style.display="none";
+   resett.style.display="inline";
+ }
+ 
+ function resetengine(){
+   clearInterval(k);
+   resett.style.display="none"
+   efg=0;
+   document.getElementById('min').innerHTML='00';
+   document.getElementById('sec').innerHTML="00";
+   start.style.display="inline";
+   start.innerHTML='START AGAIN';
+   pausee.style.display="none"
+ }
+ 
+ 
+ startt.addEventListener('click',startengine);
+ pausee.addEventListener('click',pauseengine);
+ contt.addEventListener('click',countengine);
+ stopp.addEventListener('click',stopengine);
+ resett.addEventListener('click',resetengine);
+ 
+}
+
+
+
+   
+</script> -->
 
 
 
 
 
 
-</html>
+<!-- <div class="main">
+<h1>hotel rent coundown</h1>
+<form id="rentForm">
+  <label for="days">Enter number of days to stay:</label>
+  <input type="number" id="days" name="days" min="1">
+  <button type="button" onclick="rentclick()">Calculate</button>
+</form>
+<div id="divine" style="display: none;">
+  <p>Total amount: <span id="tobi">0</span> naira</p>
+  <p>Time left: <span id="countdown"></span></p>
+</div>
+<div id="voltage" style="display: none;">
+  <p>Your is due GET OUT OF MY HOUSE.</p>
+</div>
+
+</div>
 
 
 
 <style>
-    body{
-    
-}
-
-.firstmain{
-   background-color:white;
-   position: relative;
-   right: 10px;
-   bottom: 29px;
-   height: 450px;
-   width: 620px;
-   
-   
-}
-#icon{
-   width: 50px;
-   height: 50px;
-
-}
-.dropdown{
-   height: 200px;
-}
-#laun2ch{
-   font-size: 25px;
-   transform: translate(50%);
-   position: absolute;
-   top: -20%;
-   left:-24%;
-
-}
-
-.m1{
-   padding: 7px;
-   border-radius: 20px 20px 20px 20px;
-   background-color: rgb(200, 235, 200);
-   font-size: 15px;
-   color: rgb(76, 185, 76);
-   transform: translate(50%);
-   position: absolute;
-   bottom:92%;
-   left:67px;
-}
-.m2{
-   padding: 7px;
-   border-radius: 20px 20px 20px 20px;
-   background-color: rgb(200, 235, 200);
-   font-size: 15px;
-   color: rgb(76, 185, 76);
-   transform: translate(50%);
-   position: absolute;
-   top: 17%;
-   left:11%;
-}
-.m3{
-   padding: 7px;
-   border-radius: 20px 20px 20px 20px;
-   background-color: rgb(200, 235, 200);
-   font-size: 15px;
-   color: rgb(76, 185, 76);
-   transform: translate(50%);
-   position: absolute;
-   top:115%;
-   left:-55px;
-   
-}
-mark{
-   background: rgb(18, 18, 18);
-   color:white;
-   border-radius: 3px 3px 3px 3px;
-   padding:3px;
-}
-#note1{
-   font-size:14px;
-   transform: translate(50%);
-   position: absolute;
-   left:-89px;
-}
-#note2{
-   font-size: 14px;
-   transform: translate(50%);
-   position: absolute;
-   bottom:64%;
-   left:-87px;
-
-}
-#note3{
-   font-size: 14px;
-   transform: translate(50%);
-   position: absolute;
-   top:35%;
-   left:-93px;
-
-}
-#highgrowth{
-   font-size: 14px;
-   color: rgba(89, 86, 86, 0.719);
-   transform: translate(50%);
-   position: absolute;
-   bottom: 30%;
-   left:5%;
-}
-.j1{
-
-   opacity: 0.5;
-   transform: translate(50%);
-   position: absolute;
-   bottom:11%;
-   left:14%;
-}
-.j2{
-   opacity:0.5;
-   color: #27441d;
-   transform: translate(50%);
-   position: absolute;
-   bottom:11%;
-   left:25%;
-   
-}
-.j3{
-   opacity:0.5;
-   color: #27441d;
-   transform: translate(50%);
-   position: absolute;
-   bottom:11%;
-   left:46%;
-
-}
-.j4{
-   opacity:0.5;
-   color: #27441d;
-   transform: translate(50%);
-   position: absolute;
-   bottom:11%;
-   left:69%;
-   
-}
-.j5{
-   opacity:0.5;
-   color: #27441d;
-   transform: translate(50%);
-   position: absolute;
-   bottom: 19%;
-   left:59%;
-   
-}
-.j6{
-   opacity:0.5;
-   color: #27441d;
-   transform: translate(50%);
-   position: absolute;
-   bottom: 19%;
-   left:36%;
-   
-}
-.j7{
-   opacity:0.5;
-   color: #27441d;
-   transform: translate(50%);
-   position: absolute;
-   bottom:19%;
-   left:14%;
-
-
-}
-img{
-   width: 100%;
-}
-#backimg{
-   width: 629px;
-   height: 652px;
-   transform: translate(50%);
-   position: absolute;
-   top: -1%;
-   left:25%;
-   
-}
-#free{
-   transform: translate(50%);
-   position: absolute;
-   top:89px;
-   left:38%;
-}
-#getstarted{
-   font-size: 23px;
-   transform: translate(50%);
-   position: absolute;
-   left:50%;
-   top: 42px;
-   
-   
-
-
-}
-
-
-#lastnote{
-   font-size: 13px;
-   transform: translate(50%);
-   position: absolute;
-   top:510px;
-   left:592px;
-}
-#last1{
-   font-size: 13px;
-   transform: translate(50%);
-   position: absolute;
-   top:560px;
-   left:512px;
-   
-}
-
-
-
-#name1{
-   transform: translate(50%);
-   position: absolute;
-   top:206px;
-   left:505px;
-}
-#username{
-   height: 50px;
-   width: 430px;
-   border: none;
-   outline: none;
-   text-align: center;
-   border-top-left-radius:5px;
-   border-top-right-radius:5px;
-}
-#username:hover{
-   background: rgb(185, 169, 169);
-}
-#email:hover{
-   background: rgb(185, 169, 169);
-}
-#password:hover{
-   background: rgb(185, 169, 169);
-}
-#confirmPassword:hover{
-   background: rgb(185, 169, 169);
-}
-#nametag{
-   transform: translate(50%);
-   position: absolute;
-   left:18px;
-   bottom:17px;
-}
-#name2{
-   transform: translate(50%);
-   position: absolute;
-   top:256px;
-   left:505px;
-}
-#email{
-   height: 50px;
-   width: 430px;
-   border: none;
-   outline: none;
-   text-align: center;
-   
-}
-#companytag{
-   transform: translate(50%);
-   position: absolute;
-   left:5px;
-   bottom:12px;
-}
-#name3{
-   transform: translate(50%);
-   position: absolute;
-   top:306px;
-   left:505px;
-}
-#password{
-   height: 50px;
-   width: 430px;
-   border: none;
-   outline: none;
-   text-align: center;
-   
-}
-#emailtag{
-   transform: translate(50%);
-   position: absolute;
-   left:18px;
-   bottom:12px;
-}
-
-#name4{
-   transform: translate(50%);
-   position: absolute;
-   top:356px;
-   left:505px;
-}
-#confirmPassword{
-   height: 50px;
-   width: 430px;
-   border: none;
-   outline: none;
-   text-align: center;
-   border-bottom-left-radius: 5px;
-   border-bottom-right-radius:5px ;
-   
-   
-
-}
-#passwordtag{
-   transform: translate(50%);
-   position: absolute;
-   left:5px;
-   bottom:12px;
-}
-#goldbu{
-   height: 50px;
-   width: 430px;
-   border: none;
-   border-radius: 8px 8px 8px 8px;
-   background: gold;
-   transform: translate(50%);
-   position: absolute;
-   top:440px;
-   left:509px;
-}
-
-#usernameError{
-   color: red;
-   font-size: 10px;
-   position: absolute;
-   left: 300px;
-}
-#emailError{
-   color: red;
-   font-size: 10px;
-   position: absolute;
-   left: 270px;
-   
-
-}
-#passwordError{
-   color: red;
-   font-size: 10px;
-   position: absolute;
-   left: 300px;
-}
-#confirmPasswordError{
-   color: red;
-   font-size: 10px;
-   position: absolute;
-   left: 300px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 768px){
-
-.main{
-   width:100%
-}
-
-#backimg{
- display: none;
- width:100%;
- 
- 
-   
-}
-body{
-width:100%;
-
-}
-
-
-
-#free{
-position: relative;
-top:445px;
-left:-220px;
-font-size:11px;
-
-
-}
-
-#getstarted{
-   font-size:19px;
-position: relative;
-top:325px;
-left:-220px;
-}
-
-.firstmain{
-   position: absolute;
-   top:170px;
-   left:-40px;
-}
-
-
-.secoundmain{
-   position: absolute;
-   left:100px;
-
-}
-
-#registrationForm{
-   position: absolute;
-   top:350px;
-   right:1100px;
-
-}
-
-#lastnote{
-   font-size: 13px;
-   position: relative;
-   left:-200px;
-   top:680px;
-}
-#last1{
-   font-size: 13px;
-   position: relative;
-   left:-200px;
-   top:700px;
-   
-   
-   
-}
-
-
-
-
-
-
-
-
-
-
+  .main{
+    background-color: grey;
+    width:850px;
+    border:2px solid black;
+    padding:60px;
+    margin:0px auto;
+  }
+  #rentForm{
+    color: red;
+  }
 </style>
+</body>
+
+
+<script>
+  let pricePerDay = 5000;
+  let countdownInterval;
+  
+  function rentclick() {
+    const days = parseInt(document.getElementById('days').value);
+    const totalAmount = pricePerDay * days;
+    
+    document.getElementById('tobi').textContent = '#' + totalAmount;
+    document.getElementById('divine').style.display = 'block';
+    
+    startCountdown(days);
+  }
+  
+  function startCountdown(days) {
+    let endTime = new Date().getTime() + (days * 24 * 60 * 60 * 1000);
+    
+    countdownInterval = setInterval(function() {
+      let now = new Date().getTime();
+      let timeLeft = endTime - now;
+      
+      if (timeLeft <= 0) {
+        clearInterval(countdownInterval);
+        
+      } else {
+        let dayday = Math.floor(timeLeft / (24 * 60 * 60 * 1000));
+        let hourshours = Math.floor((timeLeft % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+        let minn = Math.floor((timeLeft % (60 * 60 * 1000)) / (60 * 1000));
+        let secc = Math.floor((timeLeft % (60 * 1000)) / 1000);
+        
+        let countdownText = `${dayday}d ${hourshours}h ${minn}m ${secc}s`;
+        document.getElementById('countdown').textContent = countdownText;
+      }
+    }, 1000);
+  }
+  
+  function showNotification() {
+    document.getElementById('divine').style.display = 'none';
+    document.getElementById('voltage').style.display = 'block';
+  }
+  </script> -->
+
+
+
+
+<!-- <img src="hee.jfif"width="400" height="200"
+style="position:absolute;" id="wemuv">
+<br><br>
+<input type="button" value="go">
+
+<script>
+  let mycar=setInterval(frame, 7);
+
+  
+
+  let x=0;
+  function frame(){
+    x++;
+
+    
+    document.querySelector('#wemuv').style.left=x+"px"
+  }
+</script> 
+
+
+
+
+
+<i id="charge"
+
+
+<script>
+  let a;
+ </script> -->
+
+<!-- <div id="orange">
+  <input type="text" id="inputText" placeholder="Enter text">
+  <button onclick="victor()">Create</button>
+  <span id="displayArea"></span>
+</div>
+
+
+
+
+</body>
+<script>
+  function victor() {
+    let inputText = document.getElementById("inputText").value;
+    let displayArea = document.getElementById("displayArea");
+    let newParagraph = document.createElement("p");
+    newParagraph.innerHTML = inputText;
+    displayArea.appendChild(newParagraph);
+    document.getElementById("inputText").value ="";
+
+  }
+</script> -->
+</body>
+</head>
+
+<script>
+let message = "hello world";
+let divine ="get out of here"
+let voltage ="yes"
+console.log(message,divine,voltage);
+
+// Variables Example
+var name = "John";
+var age = 25;
+var isStudent = true;
+
+console.log(name, age, isStudent);
+
+
+
+
+let ovie ="fuck you";
+let vott ="stupid world";
+console.log(ovie,vott);
+
+
+let x ="9";
+let y ="10";
+
+console.log(x*y);
+console.log(x+y);
+
+
+
+age = Number(age);
+if (isNaN(age)) {
+  voteable = "Input is not a number";
+} else {
+  voteable = (age < 18) ? "Too young" : "Old enough";
+}
 
 
 
@@ -634,4 +362,5 @@ left:-220px;
 
 
 
-
+</script>
+</html>
