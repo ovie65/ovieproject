@@ -1,6 +1,7 @@
 .firstbox{
     background: rgb(3, 32, 56);
     height:385px;
+    
 
     
 }
@@ -275,12 +276,11 @@
   }
   #bookcheap2{
    
-   
+    margin-left:-350px;
   }
   #bookcheap3{
     margin-left:-910px;
-    border-bottom:1px solid grey;
-    padding:17px;
+    
   }
 
   #bookcheap4{
@@ -303,7 +303,7 @@ display: none;
   .lastdiv{
     background: rgb(3, 32, 56);
     height:400px;
-    margin-top:50px;
+   
   }
   .link{
     display: grid;
@@ -338,18 +338,19 @@ display: none;
 
     @media screen and (max-width: 768px){
 
-        body{
-            overflow-x: hidden;
-        }
+
+  
         .firstbox{
             background: rgb(3, 32, 56);
             height:65vh;
-        
+            
+       
             
         }
 
      .firstbox1{
         display:none;
+       
        
      }
      .million{
@@ -534,6 +535,14 @@ display: none;
 
   #lastlast{
 font-size:11px
+  }
+
+  html,body{
+    width:100%;
+    height:100;
+    margin:0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
   
 
