@@ -1,0 +1,202 @@
+.nav-item{
+   margin-left:55px;
+}
+.navxx{
+    margin-left:150px;
+}
+#logo{
+    display:none;
+}
+
+.cardxx{
+    display:flex;
+    justify-content:space-between;
+    margin:140px;
+    
+     
+}
+
+.cardaa{
+    display:flex;
+    justify-content:space-between;
+    margin:140px;
+    
+     
+}
+
+
+.cardaa{
+    display:flex;
+    justify-content:space-between;
+    margin:140px;
+    
+     
+}
+
+
+.cardll{
+    display: none;
+}
+
+.hhhe{
+    display:flex;
+    justify-content:space-between;
+    margin:130px;
+}
+.hhhsz{
+    display: none;
+}
+
+
+.endind{
+    display:flex;
+    justify-content:space-between;
+    margin:100px;
+}
+
+
+.g555{
+    height:350px;
+    opacity: 0.5;
+}
+
+.picss{
+    height:230px;
+    background-image: url(piss.avif);
+    color: white;
+}
+.f4{
+    margin-left:105px;
+}
+
+.lastcard{
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.lastlast{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 896px){
+.scope{
+ display:none;
+}
+
+.nav-item{
+    margin-left:-145px;
+ }
+
+
+.navbutt{
+    display: none;
+    
+}  
+
+
+.nav-item{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+}
+
+#logoxx{
+display:none;
+}
+
+.m3{
+    display:none;
+}
+.m6{
+    display:none;
+}
+.m16{
+    display:none;
+}
+.h4{
+    display:none;
+}
+.h9{
+    display:none;
+}
+
+.cardxx{
+    display:flex;
+    justify-content:space-between;
+    margin:0px auto;
+   
+    
+     
+}
+
+
+.cardaa{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    margin:0px auto;
+    
+     
+}
+
+
+
+.cardll{
+    display:flex;
+    justify-content:space-between;
+    margin:0px auto;
+}
+
+
+.hhhe{
+    margin:5px;
+}
+
+.red1{
+    display:none;
+}
+
+.red2{
+    display: none;
+}
+.endind{
+    margin:5px;
+}
+.lastcard{
+    display:none;
+   
+}
+
+
+
+
+
+}
