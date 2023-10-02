@@ -1,0 +1,168 @@
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -100%;
+  }
+
+     .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+.dropdown-menu a:hover {
+    background-color: #3498db;
+    color: white;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .headiconx{
+    float: right;
+    width:65%;
+     margin-top:50px;
+  }
+
+  .servicex{
+    margin-top:150px;
+    margin-left:150px;
+  }
+
+  .servicexaa{
+    display:none;
+  }
+  .firstcard{
+    margin-top:230px;
+   width:80%;
+   
+  }
+  
+.firstcardxxx{
+    margin-top:80px;
+    width:80%;
+  }
+
+  .firstcardxxx1{
+   display:none;
+  }
+
+  .getx{
+   margin-top:300px;
+   
+}
+.mainlastone{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 896px){
+
+    .dropdown:hover .dropdown-menu {
+        display:none; 
+        
+      }
+
+      
+      .headiconx{
+       
+        width:auto;
+         margin-top:50px;
+      }
+
+
+      
+  .servicex{
+   display: none;
+  }
+
+.servicexaa{
+    display:inline;
+   
+}
+a{
+   
+}
+
+.firstcard{
+  margin-top:80px;
+  width:100%;
+}
+
+
+
+.firstcardxxx{
+   display:none;
+  }
+
+  .firstcardxxx1{
+    display: inline;
+    margin-top:80px;
+    width:100%;
+  }
+
+.lastimage{
+    display:none;
+}
+
+
+.getx{
+   margin-top:80px;
+   text-align: center;
+   
+}
+#lastbutt{
+    width: 100%;
+}
+
+.mainlastone{
+ 
+    width:100%;
+    display:block;
+    justify-content: space-between;
+}
+
+  }
