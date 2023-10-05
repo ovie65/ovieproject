@@ -1,92 +1,35 @@
-.dropdown{
-    position: absolute;
-    top: 35px;
-    left: 500px;
-}
-img{
-    width: 100%;
-}
-#overf{
-    width:480px;
-    height: 645px;
-    position: absolute;
-    bottom:3px;
-    left:1px;
-}
-#overflowicon{
-    transform: translate(50%);
-    position: absolute;
-    left:-55px;
-    bottom:595px;
-}
-#smallwrite{
-    font-size: 28px;
-    transform: translate(50%);
-    position: absolute;
-    left:-85px;
-    bottom:425px;
-}
-#writeup{
-    font-size:15px;
-    transform: translate(50%);
-    position: absolute;
-    left: 497px;
-    bottom:400px;
+
+.secoundmaim{
+   float:right;
+   margin-top:-450px;
+  margin-right:70px;
+   
+
 }
 #last{
-    transform: translate(50%);
-    position: absolute;
-    left: 720px;
-    bottom:378px;
-}
-h2{
-    font-size: 40px;
-    transform: translate(50%);
-    position: absolute;
-    left: 500px;
-    bottom:439px;
-}
-#name2{
-    transform: translate(50%);
-    position: absolute;
-    left: 485px;
-    bottom:280px;
-}
-#email{
-    height: 50px;
-    width: 430px;
-    border: 1px solid grey;
-    border-radius: 10px 10px 10px 10px;
     text-align: center;
 }
-#companytag{
-    position: absolute;
-    bottom: 63px;
+#jhh{
+    text-align: center;
 }
-#sendbu{
-    color: grey;
-    height: 50px;
-    width: 430px;
-    border: none;
-    border-radius: 8px 8px 8px 8px;
-    transform: translate(50%);
-    position: absolute;
-    left: 485px;
-    bottom:200px;
+.container-xxl{
+    
 }
-#emailError{
-    font-size: 15px;
-    color: red;
-    position: absolute;
-    right:235px;
-    top:55px;
+#overflowiconxx{
+    display:none;
 }
-#lastone{
-    text-decoration: none;
-    position: absolute;
-    right:180px;
-    top:205px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,133 +43,49 @@ h2{
 
 
 @media screen and (max-width: 896px){
-
-
-
-    .center{
-
-      
-        
-    }
-
-
+    
 
     .secoundmaim{
-        height:100%;
-        width:100%;
        
-                 
+        display:block;
+        float: none !important;
+
+        margin:0px auto;
+        
+        
     }
 
-    
 
-
-   body{
-    width: 50%;
-    height:100%;
+   .firstsecxx{
+    display:none;
    }
 
-    .dropdown{
-    position: relative;
-       top:8px;
-    left:3px;
-    white-space: nowrap;
-        
-    }
+   #forg{
+    text-align: center;
+   }
 
-    
-    #overf{
+   #writeup{
+    text-align: center;
+   }
 
-        display: none;
+   #last{
+    text-align: center;
+   }
 
-    }
-    #overflowicon{
-    position: relative;
-    bottom:-35px;
-    
-    }
-    #smallwrite{
-        display: none;
-    }
-    #writeup{
-        font-size: 11px;
-        position: relative;
-        bottom:-165px;
-        left:-59px;
-        white-space: nowrap
-       
-    }
-    #last{
-        font-size:13px;
-        position: relative;
-        bottom:-150px;
-        left:18px;
-        white-space: nowrap
-      
-    }
+   #registrationForm{
+    margin-top:50px;
+   }
 
-    #registrationForm{
-        position: relative;
-        bottom:-545px;
-        left:-590px;
-    }
-   
-    #name2{
-    
-      
-    }
-    #email{
-        height: 50px;
-        width: 300px;
-        border: 1px solid grey;
-        border-radius: 10px 10px 10px 10px;
-      
-    }
-    #companytag{
-      
-    }
-   
-    #sendbu{
-        color: grey;
-        height: 50px;
-        width: 300px;
-        border: none;
-        border-radius: 8px 8px 8px 8px;
-        
-    }
-    #emailError{
-        font-size:13px;
-        color: red; 
-        position: absolute;
-        left:16px;
-      
-        white-space: nowrap;
 
-        
-    }
-    
-
-    h2{
-        font-size:25px;
-        position: relative;
-        bottom:-165px;
-        left:-38px;
-        white-space: nowrap;
-        
-        
-        
-       
-    }
-
-    #lastone{
-        white-space: nowrap;
-        margin-right:-70px;
-        margin-top:-45px;
-      
-       
-      
-    }
-
-    
+   #overflowiconxx{
+    display:inline;
 }
 
+#overflowiconxx ::after{
+    content: "\a";
+    white-space: pre;
+}
+
+
+
+}
